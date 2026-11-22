@@ -116,14 +116,15 @@ def arte_story(row, rotulo=None, forcar=False):
         foto_box = None
     else:
         tela = fundo_desfocado(im, 1080, 1920)
-        w = 960
-        h = round(im.height * w / im.width)
+        h = min(1180, round(im.height * 960 / im.width))   # limita a altura para sobrar espaco ao texto
+        w = round(im.width * h / im.height)
         foto = im.resize((w, h), Image.LANCZOS)
-        foto_box = (60, 300, 60 + w, 300 + h)
+        x0 = (1080 - w) // 2
+        foto_box = (x0, 300, x0 + w, 300 + h)
         sombra = Image.new("RGBA", (w + 80, h + 80), (0, 0, 0, 0))
         ImageDraw.Draw(sombra).rectangle((40, 40, w + 40, h + 40), fill=(0, 0, 0, 120))
         sombra = sombra.filter(ImageFilter.GaussianBlur(22))
-        tela.paste(sombra, (20, 260), sombra)
+        tela.paste(sombra, (foto_box[0] - 40, 260), sombra)
         tela.paste(foto, foto_box[:2])
     d = ImageDraw.Draw(tela)
     texto_espacado(d, (0, 215), "SUSANA FREITAS STORE", fonte(SANS_B, 28), PEARL, 7, centro_em=540)
@@ -152,7 +153,8 @@ def arte_story(row, rotulo=None, forcar=False):
             d.text((x + w1 + 34, yp), t_por, font=f_p, fill=PEARL)
         else:
             centralizado(d, yp, base.brl(por), f_p, PEARL)
-    centralizado(d, min(y0 + 168, 1740), "Agende sua visita pelo WhatsApp", fonte(SANS, 34), FENDI)
+    centralizado(d, min(y0 + 168, 1700), "Agende sua visita pelo WhatsApp", fonte(SANS, 34), FENDI)
+    centralizado(d, min(y0 + 216, 1750), "Catálogo completo: susanafreitasstore.com.br", fonte(SANS_B, 30), PEARL)
     tela.save(destino, quality=92, subsampling=0)
     return destino
 
@@ -185,7 +187,7 @@ def cartao(nome_arquivo, titulo, corpo, largura=1080, altura=1350, rodape=True, 
         y += 62
     if rodape:
         centralizado(d, altura - safe_bot + 30, f"WhatsApp {base.WHATS_DISPLAY}", fonte(SANS_B, 38), fg, largura)
-        centralizado(d, altura - safe_bot + 86, "Link na bio", fonte(SANS, 32), ac, largura)
+        centralizado(d, altura - safe_bot + 86, "susanafreitasstore.com.br  |  link na bio", fonte(SANS, 32), ac, largura)
     im.save(destino, quality=92, subsampling=0)
     return destino
 

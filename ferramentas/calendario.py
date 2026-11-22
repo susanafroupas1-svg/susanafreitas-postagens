@@ -41,19 +41,19 @@ FRASES = {
 }
 FRASE_PADRAO = ["Elegância com curadoria.", "Uma escolha pensada para você."]
 CTA = [
-    "Quer ver de perto? Atendemos em Franca/SP e levamos até você para experimentar com calma. Chame no WhatsApp {tel} ou toque no link da bio. 🤍",
-    "Prove no conforto da sua casa, em Franca/SP. Agende sua visita pelo WhatsApp {tel}. Link na bio. ✨",
-    "Gostou? Chame no WhatsApp {tel} e a gente leva a peça até você. Mais opções no link da bio. 🤍",
+    "Quer ver de perto? Atendemos em Franca/SP e levamos até você para experimentar com calma. Chame no WhatsApp {tel} ou veja o catálogo completo em susanafreitasstore.com.br (link na bio). 🤍",
+    "Prove no conforto da sua casa, em Franca/SP. Agende pelo WhatsApp {tel}. Catálogo completo: susanafreitasstore.com.br (link na bio). ✨",
+    "Gostou? Chame no WhatsApp {tel} e a gente leva a peça até você. Mais opções em susanafreitasstore.com.br (link na bio). 🤍",
 ]
 INSTITUCIONAIS = [
     ("exp_casa", "Experimente em casa.", "Em Franca/SP, levamos a curadoria até você. Prove com calma, no seu espelho, no seu tempo.",
-     "Experimentar em casa muda tudo: você vê a peça no seu espelho, com a sua luz e o seu tempo. É assim que atendemos em Franca/SP. 🤍\n\nAgende sua visita pelo WhatsApp {tel} ou pelo link da bio."),
+     "Experimentar em casa muda tudo: você vê a peça no seu espelho, com a sua luz e o seu tempo. É assim que atendemos em Franca/SP. 🤍\n\nAgende sua visita pelo WhatsApp {tel} ou veja o catálogo em susanafreitasstore.com.br (link na bio)."),
     ("mais_que_moda", "Mais do que moda.", "Uma curadoria premium para mulheres maduras e seguras.",
-     "Mais do que moda: uma curadoria pensada para mulheres maduras e seguras, com peças que realçam a sua melhor versão de forma autêntica e sofisticada. ✨\n\nConheça o catálogo completo no link da bio."),
+     "Mais do que moda: uma curadoria pensada para mulheres maduras e seguras, com peças que realçam a sua melhor versão de forma autêntica e sofisticada. ✨\n\nConheça o catálogo completo em susanafreitasstore.com.br (link na bio)."),
     ("parcelamento", "Parcelamos em até 3x sem juros.", "Levando mais de uma peça, conversamos sobre condições especiais.",
-     "Parcelamos em até 3x sem juros. 💳\n\nEscolha sua peça no catálogo (link da bio) e chame no WhatsApp {tel} para agendar sua visita."),
+     "Parcelamos em até 3x sem juros. 💳\n\nEscolha sua peça no catálogo (susanafreitasstore.com.br, link na bio) e chame no WhatsApp {tel} para agendar sua visita."),
     ("atendimento", "Atendimento próximo, humano e consultivo.", "Ajudamos você a escolher peças que realçam a sua melhor versão.",
-     "Aqui o atendimento é próximo, humano e consultivo. Ajudamos você a escolher peças que realçam a sua melhor versão, sem pressa. 🤍\n\nChame no WhatsApp {tel}. Link na bio."),
+     "Aqui o atendimento é próximo, humano e consultivo. Ajudamos você a escolher peças que realçam a sua melhor versão, sem pressa. 🤍\n\nChame no WhatsApp {tel} ou veja o catálogo em susanafreitasstore.com.br (link na bio)."),
 ]
 
 
@@ -191,7 +191,7 @@ def gerar(inicio, dias):
             arqs.append(str(midia.cartao("cta_carrossel.jpg", "Gostou de alguma peça?", "Agende sua visita: levamos até você para experimentar.", rodape=True, esc=True).relative_to(ROOT)).replace("\\", "/"))
             leg = ("Black Friday Susana Freitas Store 🖤\n\nOportunidades selecionadas, com condição especial enquanto durar o estoque:\n"
                    + "\n".join(f"• {r['nome']}: de {base.brl(r['preco_de'])} por {base.brl(r['preco_por'])}" for r in sel)
-                   + f"\n\nChame no WhatsApp {base.WHATS_DISPLAY} e agende sua visita. Link na bio.\n\n#blackfriday #modafeminina #modaelegante #boutiquefeminina #modadelivery #oportunidade")
+                   + f"\n\nChame no WhatsApp {base.WHATS_DISPLAY} e agende sua visita. Catálogo completo: susanafreitasstore.com.br (link na bio).\n\n#blackfriday #modafeminina #modaelegante #boutiquefeminina #modadelivery #oportunidade")
             item(data, HORA_FEED, "carrossel", [r["sku"] for r in sel], arqs, leg, titulo="Black Friday: oportunidades",
                  obs="Usa so itens ja em OPORTUNIDADE, escolhidos entre os de melhor retorno. Nao criar desconto novo sem recalcular a margem.")
             feed_skus = [r["sku"] for r in sel]
