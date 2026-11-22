@@ -350,11 +350,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-VES-020"
+   "SF-BLU-023"
   ],
-  "titulo": "Story: Vestido Maje",
+  "titulo": "Story: Blusa Julie Bege",
   "arquivos": [
-   "instagram/midia/stories/SF-VES-020.jpg"
+   "instagram/midia/stories/SF-BLU-023.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -411,11 +411,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-BLU-024"
+   "SF-BLU-026"
   ],
-  "titulo": "Story: Blusa June Off White",
+  "titulo": "Story: Blusa Uzula Preto",
   "arquivos": [
-   "instagram/midia/stories/SF-BLU-024.jpg"
+   "instagram/midia/stories/SF-BLU-026.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -445,11 +445,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-BLU-010"
+   "SF-BLU-030"
   ],
-  "titulo": "Story: Blusa Gloria Marinho",
+  "titulo": "Story: Blusa Ester",
   "arquivos": [
-   "instagram/midia/stories/SF-BLU-010.jpg"
+   "instagram/midia/stories/SF-BLU-030.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -496,11 +496,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-BLU-021"
+   "SF-BLU-032"
   ],
-  "titulo": "Story: T-Shirt Malha Básica",
+  "titulo": "Story: Blusa Juçara Verde",
   "arquivos": [
-   "instagram/midia/stories/SF-BLU-021.jpg"
+   "instagram/midia/stories/SF-BLU-032.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -510,87 +510,6 @@
   "data": "2026-11-29",
   "hora_local": "10:30",
   "publicar_em_utc": "2026-11-29T13:30:00Z",
-  "plataforma": "instagram",
-  "tipo": "feed",
-  "skus": [],
-  "titulo": "Institucional: Experimente em casa.",
-  "arquivos": [
-   "instagram/midia/cartoes/feed_exp_casa.jpg"
-  ],
-  "legenda": "Experimentar em casa muda tudo: você vê a peça no seu espelho, com a sua luz e o seu tempo. É assim que atendemos em Franca/SP. 🤍\n\nAgende sua visita pelo WhatsApp (16) 99378-9775 ou veja o catálogo em susanafreitasstore.com.br (link na bio).\n\n#modafeminina #modaelegante #boutiquefeminina #modadelivery",
-  "status": "pronto"
- },
- {
-  "id": "2026-11-29_1500_story_061",
-  "data": "2026-11-29",
-  "hora_local": "15:00",
-  "publicar_em_utc": "2026-11-29T18:00:00Z",
-  "plataforma": "instagram",
-  "tipo": "story",
-  "skus": [
-   "SF-BLU-022"
-  ],
-  "titulo": "Story: Blusa Julie Azul",
-  "arquivos": [
-   "instagram/midia/stories/SF-BLU-022.jpg"
-  ],
-  "legenda": "",
-  "status": "pronto"
- },
- {
-  "id": "2026-11-29_2045_story_062",
-  "data": "2026-11-29",
-  "hora_local": "20:45",
-  "publicar_em_utc": "2026-11-29T23:45:00Z",
-  "plataforma": "instagram",
-  "tipo": "story",
-  "skus": [],
-  "titulo": "Story: agende sua visita",
-  "arquivos": [
-   "instagram/midia/cartoes/story_agende.jpg"
-  ],
-  "legenda": "",
-  "status": "pronto"
- },
- {
-  "id": "2026-11-30_0830_story_063",
-  "data": "2026-11-30",
-  "hora_local": "08:30",
-  "publicar_em_utc": "2026-11-30T11:30:00Z",
-  "plataforma": "instagram",
-  "tipo": "story",
-  "skus": [
-   "SF-BLU-023"
-  ],
-  "titulo": "Story: Blusa Julie Bege",
-  "arquivos": [
-   "instagram/midia/stories/SF-BLU-023.jpg"
-  ],
-  "legenda": "",
-  "status": "pronto"
- },
- {
-  "id": "2026-11-30_1500_story_064",
-  "data": "2026-11-30",
-  "hora_local": "15:00",
-  "publicar_em_utc": "2026-11-30T18:00:00Z",
-  "plataforma": "instagram",
-  "tipo": "story",
-  "skus": [
-   "SF-BLU-026"
-  ],
-  "titulo": "Story: Blusa Uzula Preto",
-  "arquivos": [
-   "instagram/midia/stories/SF-BLU-026.jpg"
-  ],
-  "legenda": "",
-  "status": "pronto"
- },
- {
-  "id": "2026-11-30_2000_feed_010",
-  "data": "2026-11-30",
-  "hora_local": "20:00",
-  "publicar_em_utc": "2026-11-30T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
@@ -604,10 +523,27 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-30_2045_story_065",
-  "data": "2026-11-30",
+  "id": "2026-11-29_1500_story_061",
+  "data": "2026-11-29",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-11-29T18:00:00Z",
+  "plataforma": "instagram",
+  "tipo": "story",
+  "skus": [
+   "SF-BLU-034"
+  ],
+  "titulo": "Story: Blusa Lenir",
+  "arquivos": [
+   "instagram/midia/stories/SF-BLU-034.jpg"
+  ],
+  "legenda": "",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-11-29_2045_story_062",
+  "data": "2026-11-29",
   "hora_local": "20:45",
-  "publicar_em_utc": "2026-11-30T23:45:00Z",
+  "publicar_em_utc": "2026-11-29T23:45:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -621,6 +557,74 @@
   "status": "pronto"
  },
  {
+  "id": "2026-11-30_0830_story_063",
+  "data": "2026-11-30",
+  "hora_local": "08:30",
+  "publicar_em_utc": "2026-11-30T11:30:00Z",
+  "plataforma": "instagram",
+  "tipo": "story",
+  "skus": [
+   "SF-BLU-036"
+  ],
+  "titulo": "Story: Blusa Maya",
+  "arquivos": [
+   "instagram/midia/stories/SF-BLU-036.jpg"
+  ],
+  "legenda": "",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-11-30_1500_story_064",
+  "data": "2026-11-30",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-11-30T18:00:00Z",
+  "plataforma": "instagram",
+  "tipo": "story",
+  "skus": [
+   "SF-BLU-009"
+  ],
+  "titulo": "Story: Blusa Edwina Marinho",
+  "arquivos": [
+   "instagram/midia/stories/SF-BLU-009.jpg"
+  ],
+  "legenda": "",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-11-30_2000_feed_010",
+  "data": "2026-11-30",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-11-30T23:00:00Z",
+  "plataforma": "instagram",
+  "tipo": "feed",
+  "skus": [
+   "SF-CJT-007"
+  ],
+  "titulo": "Destaque: Conjunto Colete Frente Única com Shorts",
+  "arquivos": [
+   "instagram/midia/feed/SF-CJT-007.jpg"
+  ],
+  "legenda": "Novidade no nosso catálogo: Conjunto Colete Frente Única com Shorts 🤍\n\nR$ 679,90 ou em até 3x sem juros.\n\nLook pronto, sem precisar pensar muito.\n\nProve no conforto da sua casa, em Franca/SP. Agende pelo WhatsApp (16) 99378-9775. Catálogo completo: susanafreitasstore.com.br (link na bio). ✨\n\n#conjuntofeminino #conjuntoelegante #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-11-30_2045_story_065",
+  "data": "2026-11-30",
+  "hora_local": "20:45",
+  "publicar_em_utc": "2026-11-30T23:45:00Z",
+  "plataforma": "instagram",
+  "tipo": "story",
+  "skus": [
+   "SF-CJT-007"
+  ],
+  "titulo": "Story (chamada para o feed): Conjunto Colete Frente Única com Shorts",
+  "arquivos": [
+   "instagram/midia/stories/SF-CJT-007.jpg"
+  ],
+  "legenda": "",
+  "status": "pronto"
+ },
+ {
   "id": "2026-12-01_0830_story_066",
   "data": "2026-12-01",
   "hora_local": "08:30",
@@ -628,11 +632,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-BLU-030"
+   "SF-TRI-002"
   ],
-  "titulo": "Story: Blusa Ester",
+  "titulo": "Story: Chemise Tricoline Olivia",
   "arquivos": [
-   "instagram/midia/stories/SF-BLU-030.jpg"
+   "instagram/midia/stories/SF-TRI-002.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -645,11 +649,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-BLU-032"
+   "SF-BLU-013"
   ],
-  "titulo": "Story: Blusa Juçara Verde",
+  "titulo": "Story: Blusa Hollyday",
   "arquivos": [
-   "instagram/midia/stories/SF-BLU-032.jpg"
+   "instagram/midia/stories/SF-BLU-013.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -706,11 +710,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-BLU-034"
+   "SF-BLU-028"
   ],
-  "titulo": "Story: Blusa Lenir",
+  "titulo": "Story: Blusa Ursa Azul",
   "arquivos": [
-   "instagram/midia/stories/SF-BLU-034.jpg"
+   "instagram/midia/stories/SF-BLU-028.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -723,11 +727,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-BLU-036"
+   "SF-BLU-035"
   ],
-  "titulo": "Story: Blusa Maya",
+  "titulo": "Story: Blusa Lisete Off-White",
   "arquivos": [
-   "instagram/midia/stories/SF-BLU-036.jpg"
+   "instagram/midia/stories/SF-BLU-035.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -740,13 +744,13 @@
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
-   "SF-CJT-007"
+   "SF-BLU-006"
   ],
-  "titulo": "Destaque: Conjunto Colete Frente Única com Shorts",
+  "titulo": "Destaque: Blusa Amelie",
   "arquivos": [
-   "instagram/midia/feed/SF-CJT-007.jpg"
+   "instagram/midia/feed/SF-BLU-006.jpg"
   ],
-  "legenda": "Novidade no nosso catálogo: Conjunto Colete Frente Única com Shorts 🤍\n\nR$ 679,90 ou em até 3x sem juros.\n\nLook pronto, sem precisar pensar muito.\n\nProve no conforto da sua casa, em Franca/SP. Agende pelo WhatsApp (16) 99378-9775. Catálogo completo: susanafreitasstore.com.br (link na bio). ✨\n\n#conjuntofeminino #conjuntoelegante #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
+  "legenda": "Blusa Amelie, uma escolha da nossa curadoria ✨\n\nR$ 318,00 ou em até 3x sem juros.\n\nSimples de usar, difícil de esquecer.\n\nGostou? Chame no WhatsApp (16) 99378-9775 e a gente leva a peça até você. Mais opções em susanafreitasstore.com.br (link na bio). 🤍\n\n#blusafeminina #blusaselegantes #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
   "status": "pronto"
  },
  {
@@ -757,11 +761,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-CJT-007"
+   "SF-BLU-006"
   ],
-  "titulo": "Story (chamada para o feed): Conjunto Colete Frente Única com Shorts",
+  "titulo": "Story (chamada para o feed): Blusa Amelie",
   "arquivos": [
-   "instagram/midia/stories/SF-CJT-007.jpg"
+   "instagram/midia/stories/SF-BLU-006.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -774,11 +778,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-BLU-009"
+   "SF-BLU-017"
   ],
-  "titulo": "Story: Blusa Edwina Marinho",
+  "titulo": "Story: Regata Bicolor",
   "arquivos": [
-   "instagram/midia/stories/SF-BLU-009.jpg"
+   "instagram/midia/stories/SF-BLU-017.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -808,11 +812,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-TRI-002"
+   "SF-BLU-020"
   ],
-  "titulo": "Story: Chemise Tricoline Olivia",
+  "titulo": "Story: Regata Decote V",
   "arquivos": [
-   "instagram/midia/stories/SF-TRI-002.jpg"
+   "instagram/midia/stories/SF-BLU-020.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -869,11 +873,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-BLU-013"
+   "SF-BLU-004"
   ],
-  "titulo": "Story: Blusa Hollyday",
+  "titulo": "Story: Blusa Nula Manga",
   "arquivos": [
-   "instagram/midia/stories/SF-BLU-013.jpg"
+   "instagram/midia/stories/SF-BLU-004.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -903,11 +907,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-BLU-028"
+   "SF-CJT-001"
   ],
-  "titulo": "Story: Blusa Ursa Azul",
+  "titulo": "Story: Conjunto Branco Lacinho",
   "arquivos": [
-   "instagram/midia/stories/SF-BLU-028.jpg"
+   "instagram/midia/stories/SF-CJT-001.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -920,13 +924,13 @@
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
-   "SF-BLU-006"
+   "SF-VES-026"
   ],
-  "titulo": "Destaque: Blusa Amelie",
+  "titulo": "Destaque: Vestido Midi Branco Recorte Busto",
   "arquivos": [
-   "instagram/midia/feed/SF-BLU-006.jpg"
+   "instagram/midia/feed/SF-VES-026.jpg"
   ],
-  "legenda": "Blusa Amelie, uma escolha da nossa curadoria ✨\n\nR$ 318,00 ou em até 3x sem juros.\n\nSimples de usar, difícil de esquecer.\n\nGostou? Chame no WhatsApp (16) 99378-9775 e a gente leva a peça até você. Mais opções em susanafreitasstore.com.br (link na bio). 🤍\n\n#blusafeminina #blusaselegantes #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
+  "legenda": "Vestido Midi Branco Recorte Busto ✨\n\nR$ 399,90 ou em até 3x sem juros.\n\nUm vestido para chegar bem em qualquer ocasião.\n\nQuer ver de perto? Atendemos em Franca/SP e levamos até você para experimentar com calma. Chame no WhatsApp (16) 99378-9775 ou veja o catálogo completo em susanafreitasstore.com.br (link na bio). 🤍\n\n#vestidofeminino #vestidoselegantes #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
   "status": "pronto"
  },
  {
@@ -937,11 +941,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-BLU-006"
+   "SF-VES-026"
   ],
-  "titulo": "Story (chamada para o feed): Blusa Amelie",
+  "titulo": "Story (chamada para o feed): Vestido Midi Branco Recorte Busto",
   "arquivos": [
-   "instagram/midia/stories/SF-BLU-006.jpg"
+   "instagram/midia/stories/SF-VES-026.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -954,11 +958,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-BLU-035"
+   "SF-VES-004"
   ],
-  "titulo": "Story: Blusa Lisete Off-White",
+  "titulo": "Story: Vestido Ana",
   "arquivos": [
-   "instagram/midia/stories/SF-BLU-035.jpg"
+   "instagram/midia/stories/SF-VES-004.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -988,11 +992,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-BLU-017"
+   "SF-BLU-003"
   ],
-  "titulo": "Story: Regata Bicolor",
+  "titulo": "Story: Blusa Crepe Babado",
   "arquivos": [
-   "instagram/midia/stories/SF-BLU-017.jpg"
+   "instagram/midia/stories/SF-BLU-003.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -1011,7 +1015,7 @@
   "arquivos": [
    "instagram/midia/feed/SF-VES-003.jpg"
   ],
-  "legenda": "Vestido Melissa ✨\n\nDe R$ 269,90 por R$ 169,90. Condição especial enquanto durar o estoque.\n\nUm vestido para chegar bem em qualquer ocasião.\n\nQuer ver de perto? Atendemos em Franca/SP e levamos até você para experimentar com calma. Chame no WhatsApp (16) 99378-9775 ou veja o catálogo completo em susanafreitasstore.com.br (link na bio). 🤍\n\n#vestidofeminino #vestidoselegantes #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
+  "legenda": "Novidade no nosso catálogo: Vestido Melissa 🤍\n\nDe R$ 269,90 por R$ 169,90. Condição especial enquanto durar o estoque.\n\nFeminilidade com presença, sem esforço.\n\nProve no conforto da sua casa, em Franca/SP. Agende pelo WhatsApp (16) 99378-9775. Catálogo completo: susanafreitasstore.com.br (link na bio). ✨\n\n#vestidofeminino #vestidoselegantes #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
   "status": "pronto"
  },
  {
@@ -1039,155 +1043,6 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-BLU-020"
-  ],
-  "titulo": "Story: Regata Decote V",
-  "arquivos": [
-   "instagram/midia/stories/SF-BLU-020.jpg"
-  ],
-  "legenda": "",
-  "status": "pronto"
- },
- {
-  "id": "2026-12-06_1030_feed_019",
-  "data": "2026-12-06",
-  "hora_local": "10:30",
-  "publicar_em_utc": "2026-12-06T13:30:00Z",
-  "plataforma": "instagram",
-  "tipo": "feed",
-  "skus": [],
-  "titulo": "Institucional: Mais do que moda.",
-  "arquivos": [
-   "instagram/midia/cartoes/feed_mais_que_moda.jpg"
-  ],
-  "legenda": "Mais do que moda: uma curadoria pensada para mulheres maduras e seguras, com peças que realçam a sua melhor versão de forma autêntica e sofisticada. ✨\n\nConheça o catálogo completo em susanafreitasstore.com.br (link na bio).\n\n#modafeminina #modaelegante #boutiquefeminina #modadelivery",
-  "status": "pronto"
- },
- {
-  "id": "2026-12-06_1500_story_082",
-  "data": "2026-12-06",
-  "hora_local": "15:00",
-  "publicar_em_utc": "2026-12-06T18:00:00Z",
-  "plataforma": "instagram",
-  "tipo": "story",
-  "skus": [
-   "SF-BLU-004"
-  ],
-  "titulo": "Story: Blusa Nula Manga",
-  "arquivos": [
-   "instagram/midia/stories/SF-BLU-004.jpg"
-  ],
-  "legenda": "",
-  "status": "pronto"
- },
- {
-  "id": "2026-12-06_2045_story_083",
-  "data": "2026-12-06",
-  "hora_local": "20:45",
-  "publicar_em_utc": "2026-12-06T23:45:00Z",
-  "plataforma": "instagram",
-  "tipo": "story",
-  "skus": [],
-  "titulo": "Story: agende sua visita",
-  "arquivos": [
-   "instagram/midia/cartoes/story_agende.jpg"
-  ],
-  "legenda": "",
-  "status": "pronto"
- },
- {
-  "id": "2026-12-07_0830_story_084",
-  "data": "2026-12-07",
-  "hora_local": "08:30",
-  "publicar_em_utc": "2026-12-07T11:30:00Z",
-  "plataforma": "instagram",
-  "tipo": "story",
-  "skus": [
-   "SF-CJT-001"
-  ],
-  "titulo": "Story: Conjunto Branco Lacinho",
-  "arquivos": [
-   "instagram/midia/stories/SF-CJT-001.jpg"
-  ],
-  "legenda": "",
-  "status": "pronto"
- },
- {
-  "id": "2026-12-07_1500_story_085",
-  "data": "2026-12-07",
-  "hora_local": "15:00",
-  "publicar_em_utc": "2026-12-07T18:00:00Z",
-  "plataforma": "instagram",
-  "tipo": "story",
-  "skus": [
-   "SF-VES-004"
-  ],
-  "titulo": "Story: Vestido Ana",
-  "arquivos": [
-   "instagram/midia/stories/SF-VES-004.jpg"
-  ],
-  "legenda": "",
-  "status": "pronto"
- },
- {
-  "id": "2026-12-07_2000_feed_020",
-  "data": "2026-12-07",
-  "hora_local": "20:00",
-  "publicar_em_utc": "2026-12-07T23:00:00Z",
-  "plataforma": "instagram",
-  "tipo": "feed",
-  "skus": [
-   "SF-SAI-003"
-  ],
-  "titulo": "Destaque: Saia Jeans Longa Damaris",
-  "arquivos": [
-   "instagram/midia/feed/SF-SAI-003.jpg"
-  ],
-  "legenda": "Novidade no nosso catálogo: Saia Jeans Longa Damaris 🤍\n\nR$ 529,00 ou em até 3x sem juros.\n\nUma saia para montar produções diferentes.\n\nProve no conforto da sua casa, em Franca/SP. Agende pelo WhatsApp (16) 99378-9775. Catálogo completo: susanafreitasstore.com.br (link na bio). ✨\n\n#saiafeminina #saias #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
-  "status": "pronto"
- },
- {
-  "id": "2026-12-07_2045_story_086",
-  "data": "2026-12-07",
-  "hora_local": "20:45",
-  "publicar_em_utc": "2026-12-07T23:45:00Z",
-  "plataforma": "instagram",
-  "tipo": "story",
-  "skus": [
-   "SF-SAI-003"
-  ],
-  "titulo": "Story (chamada para o feed): Saia Jeans Longa Damaris",
-  "arquivos": [
-   "instagram/midia/stories/SF-SAI-003.jpg"
-  ],
-  "legenda": "",
-  "status": "pronto"
- },
- {
-  "id": "2026-12-08_0830_story_087",
-  "data": "2026-12-08",
-  "hora_local": "08:30",
-  "publicar_em_utc": "2026-12-08T11:30:00Z",
-  "plataforma": "instagram",
-  "tipo": "story",
-  "skus": [
-   "SF-BLU-003"
-  ],
-  "titulo": "Story: Blusa Crepe Babado",
-  "arquivos": [
-   "instagram/midia/stories/SF-BLU-003.jpg"
-  ],
-  "legenda": "",
-  "status": "pronto"
- },
- {
-  "id": "2026-12-08_1500_story_088",
-  "data": "2026-12-08",
-  "hora_local": "15:00",
-  "publicar_em_utc": "2026-12-08T18:00:00Z",
-  "plataforma": "instagram",
-  "tipo": "story",
-  "skus": [
    "SF-BLU-005"
   ],
   "titulo": "Story: Blusa Manga Chifon",
@@ -1198,84 +1053,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-08_2000_carrossel_021",
-  "data": "2026-12-08",
-  "hora_local": "20:00",
-  "publicar_em_utc": "2026-12-08T23:00:00Z",
-  "plataforma": "instagram",
-  "tipo": "carrossel",
-  "skus": [
-   "SF-SAI-004",
-   "SF-SAI-005",
-   "SF-SAI-001"
-  ],
-  "titulo": "Seleção: Saias",
-  "arquivos": [
-   "instagram/midia/carrosseis/2026-12-08_saias/01_capa.jpg",
-   "instagram/midia/carrosseis/2026-12-08_saias/02_SF-SAI-004.jpg",
-   "instagram/midia/carrosseis/2026-12-08_saias/03_SF-SAI-005.jpg",
-   "instagram/midia/carrosseis/2026-12-08_saias/04_SF-SAI-001.jpg",
-   "instagram/midia/carrosseis/2026-12-08_saias/05_fecho.jpg"
-  ],
-  "legenda": "Seleção: Saias 🤍\n\nDeslize e escolha a sua favorita:\n• Saia Cargo: R$ 369,90\n• Saia Gorgorão Marinho: R$ 369,90\n• Shorts Saia Detalhe Renda: R$ 259,90\n\nProve no conforto da sua casa, em Franca/SP. Agende pelo WhatsApp (16) 99378-9775. Catálogo completo: susanafreitasstore.com.br (link na bio). ✨\n\n#modafeminina #modaelegante #boutiquefeminina #modadelivery #lookdodia #francasp",
-  "status": "pronto"
- },
- {
-  "id": "2026-12-08_2045_story_089",
-  "data": "2026-12-08",
-  "hora_local": "20:45",
-  "publicar_em_utc": "2026-12-08T23:45:00Z",
-  "plataforma": "instagram",
-  "tipo": "story",
-  "skus": [
-   "SF-SAI-004"
-  ],
-  "titulo": "Story (chamada para o feed): Saia Cargo",
-  "arquivos": [
-   "instagram/midia/stories/SF-SAI-004.jpg"
-  ],
-  "legenda": "",
-  "status": "pronto"
- },
- {
-  "id": "2026-12-09_0830_story_090",
-  "data": "2026-12-09",
-  "hora_local": "08:30",
-  "publicar_em_utc": "2026-12-09T11:30:00Z",
-  "plataforma": "instagram",
-  "tipo": "story",
-  "skus": [
-   "SF-VES-005"
-  ],
-  "titulo": "Story: Vestido Jeans",
-  "arquivos": [
-   "instagram/midia/stories/SF-VES-005.jpg"
-  ],
-  "legenda": "",
-  "status": "pronto"
- },
- {
-  "id": "2026-12-09_1500_story_091",
-  "data": "2026-12-09",
-  "hora_local": "15:00",
-  "publicar_em_utc": "2026-12-09T18:00:00Z",
-  "plataforma": "instagram",
-  "tipo": "story",
-  "skus": [
-   "SF-CJT-010"
-  ],
-  "titulo": "Story: Macacão Balloon Gianna Natural",
-  "arquivos": [
-   "instagram/midia/stories/SF-CJT-010.jpg"
-  ],
-  "legenda": "",
-  "status": "pronto"
- },
- {
-  "id": "2026-12-09_2000_feed_022",
-  "data": "2026-12-09",
-  "hora_local": "20:00",
-  "publicar_em_utc": "2026-12-09T23:00:00Z",
+  "id": "2026-12-06_1030_feed_019",
+  "data": "2026-12-06",
+  "hora_local": "10:30",
+  "publicar_em_utc": "2026-12-06T13:30:00Z",
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
@@ -1289,10 +1070,27 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-09_2045_story_092",
-  "data": "2026-12-09",
+  "id": "2026-12-06_1500_story_082",
+  "data": "2026-12-06",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-06T18:00:00Z",
+  "plataforma": "instagram",
+  "tipo": "story",
+  "skus": [
+   "SF-VES-005"
+  ],
+  "titulo": "Story: Vestido Jeans",
+  "arquivos": [
+   "instagram/midia/stories/SF-VES-005.jpg"
+  ],
+  "legenda": "",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-12-06_2045_story_083",
+  "data": "2026-12-06",
   "hora_local": "20:45",
-  "publicar_em_utc": "2026-12-09T23:45:00Z",
+  "publicar_em_utc": "2026-12-06T23:45:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -1306,10 +1104,27 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-10_0830_story_093",
-  "data": "2026-12-10",
+  "id": "2026-12-07_0830_story_084",
+  "data": "2026-12-07",
   "hora_local": "08:30",
-  "publicar_em_utc": "2026-12-10T11:30:00Z",
+  "publicar_em_utc": "2026-12-07T11:30:00Z",
+  "plataforma": "instagram",
+  "tipo": "story",
+  "skus": [
+   "SF-CJT-010"
+  ],
+  "titulo": "Story: Macacão Balloon Gianna Natural",
+  "arquivos": [
+   "instagram/midia/stories/SF-CJT-010.jpg"
+  ],
+  "legenda": "",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-12-07_1500_story_085",
+  "data": "2026-12-07",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-07T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -1318,6 +1133,201 @@
   "titulo": "Story: Vestido Amanda Preto",
   "arquivos": [
    "instagram/midia/stories/SF-VES-014.jpg"
+  ],
+  "legenda": "",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-12-07_2000_feed_020",
+  "data": "2026-12-07",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-07T23:00:00Z",
+  "plataforma": "instagram",
+  "tipo": "feed",
+  "skus": [
+   "SF-VES-013"
+  ],
+  "titulo": "Destaque: Vestido Preto Midi Assimétrico",
+  "arquivos": [
+   "instagram/midia/feed/SF-VES-013.jpg"
+  ],
+  "legenda": "Vestido Preto Midi Assimétrico ✨\n\nR$ 389,90 ou em até 3x sem juros.\n\nUm vestido para chegar bem em qualquer ocasião.\n\nQuer ver de perto? Atendemos em Franca/SP e levamos até você para experimentar com calma. Chame no WhatsApp (16) 99378-9775 ou veja o catálogo completo em susanafreitasstore.com.br (link na bio). 🤍\n\n#vestidofeminino #vestidoselegantes #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-12-07_2045_story_086",
+  "data": "2026-12-07",
+  "hora_local": "20:45",
+  "publicar_em_utc": "2026-12-07T23:45:00Z",
+  "plataforma": "instagram",
+  "tipo": "story",
+  "skus": [
+   "SF-VES-013"
+  ],
+  "titulo": "Story (chamada para o feed): Vestido Preto Midi Assimétrico",
+  "arquivos": [
+   "instagram/midia/stories/SF-VES-013.jpg"
+  ],
+  "legenda": "",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-12-08_0830_story_087",
+  "data": "2026-12-08",
+  "hora_local": "08:30",
+  "publicar_em_utc": "2026-12-08T11:30:00Z",
+  "plataforma": "instagram",
+  "tipo": "story",
+  "skus": [
+   "SF-VES-017"
+  ],
+  "titulo": "Story: Vestido Longo Vichy Génova",
+  "arquivos": [
+   "instagram/midia/stories/SF-VES-017.jpg"
+  ],
+  "legenda": "",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-12-08_1500_story_088",
+  "data": "2026-12-08",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-08T18:00:00Z",
+  "plataforma": "instagram",
+  "tipo": "story",
+  "skus": [
+   "SF-CJT-007"
+  ],
+  "titulo": "Story: Conjunto Colete Frente Única com Shorts",
+  "arquivos": [
+   "instagram/midia/stories/SF-CJT-007.jpg"
+  ],
+  "legenda": "",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-12-08_2000_carrossel_021",
+  "data": "2026-12-08",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-08T23:00:00Z",
+  "plataforma": "instagram",
+  "tipo": "carrossel",
+  "skus": [
+   "SF-SAI-003",
+   "SF-SAI-004",
+   "SF-SAI-005",
+   "SF-SAI-001"
+  ],
+  "titulo": "Seleção: Saias",
+  "arquivos": [
+   "instagram/midia/carrosseis/2026-12-08_saias/01_capa.jpg",
+   "instagram/midia/carrosseis/2026-12-08_saias/02_SF-SAI-003.jpg",
+   "instagram/midia/carrosseis/2026-12-08_saias/03_SF-SAI-004.jpg",
+   "instagram/midia/carrosseis/2026-12-08_saias/04_SF-SAI-005.jpg",
+   "instagram/midia/carrosseis/2026-12-08_saias/05_SF-SAI-001.jpg",
+   "instagram/midia/carrosseis/2026-12-08_saias/06_fecho.jpg"
+  ],
+  "legenda": "Seleção: Saias 🤍\n\nDeslize e escolha a sua favorita:\n• Saia Jeans Longa Damaris: R$ 529,00\n• Saia Cargo: R$ 369,90\n• Saia Gorgorão Marinho: R$ 369,90\n• Shorts Saia Detalhe Renda: R$ 259,90\n\nProve no conforto da sua casa, em Franca/SP. Agende pelo WhatsApp (16) 99378-9775. Catálogo completo: susanafreitasstore.com.br (link na bio). ✨\n\n#modafeminina #modaelegante #boutiquefeminina #modadelivery #lookdodia #francasp",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-12-08_2045_story_089",
+  "data": "2026-12-08",
+  "hora_local": "20:45",
+  "publicar_em_utc": "2026-12-08T23:45:00Z",
+  "plataforma": "instagram",
+  "tipo": "story",
+  "skus": [
+   "SF-SAI-003"
+  ],
+  "titulo": "Story (chamada para o feed): Saia Jeans Longa Damaris",
+  "arquivos": [
+   "instagram/midia/stories/SF-SAI-003.jpg"
+  ],
+  "legenda": "",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-12-09_0830_story_090",
+  "data": "2026-12-09",
+  "hora_local": "08:30",
+  "publicar_em_utc": "2026-12-09T11:30:00Z",
+  "plataforma": "instagram",
+  "tipo": "story",
+  "skus": [
+   "SF-CJT-008"
+  ],
+  "titulo": "Story: Conjunto Evasê Poá",
+  "arquivos": [
+   "instagram/midia/stories/SF-CJT-008.jpg"
+  ],
+  "legenda": "",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-12-09_1500_story_091",
+  "data": "2026-12-09",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-09T18:00:00Z",
+  "plataforma": "instagram",
+  "tipo": "story",
+  "skus": [
+   "SF-VES-010"
+  ],
+  "titulo": "Story: Vestido Lorenza",
+  "arquivos": [
+   "instagram/midia/stories/SF-VES-010.jpg"
+  ],
+  "legenda": "",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-12-09_2000_feed_022",
+  "data": "2026-12-09",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-09T23:00:00Z",
+  "plataforma": "instagram",
+  "tipo": "feed",
+  "skus": [
+   "SF-CAL-007"
+  ],
+  "titulo": "Destaque: Calça Reta Alfaiataria Cannes",
+  "arquivos": [
+   "instagram/midia/feed/SF-CAL-007.jpg"
+  ],
+  "legenda": "Novidade no nosso catálogo: Calça Reta Alfaiataria Cannes 🤍\n\nR$ 429,90 ou em até 3x sem juros.\n\nPara a rotina que não para, sem perder a elegância.\n\nProve no conforto da sua casa, em Franca/SP. Agende pelo WhatsApp (16) 99378-9775. Catálogo completo: susanafreitasstore.com.br (link na bio). ✨\n\n#calcafeminina #calcas #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-12-09_2045_story_092",
+  "data": "2026-12-09",
+  "hora_local": "20:45",
+  "publicar_em_utc": "2026-12-09T23:45:00Z",
+  "plataforma": "instagram",
+  "tipo": "story",
+  "skus": [
+   "SF-CAL-007"
+  ],
+  "titulo": "Story (chamada para o feed): Calça Reta Alfaiataria Cannes",
+  "arquivos": [
+   "instagram/midia/stories/SF-CAL-007.jpg"
+  ],
+  "legenda": "",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-12-10_0830_story_093",
+  "data": "2026-12-10",
+  "hora_local": "08:30",
+  "publicar_em_utc": "2026-12-10T11:30:00Z",
+  "plataforma": "instagram",
+  "tipo": "story",
+  "skus": [
+   "SF-VES-002"
+  ],
+  "titulo": "Story: Vestido Power Francine",
+  "arquivos": [
+   "instagram/midia/stories/SF-VES-002.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -1347,11 +1357,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-VES-017"
+   "SF-VES-021"
   ],
-  "titulo": "Story: Vestido Longo Vichy Génova",
+  "titulo": "Story: Vestido Peplum Bordado",
   "arquivos": [
-   "instagram/midia/stories/SF-VES-017.jpg"
+   "instagram/midia/stories/SF-VES-021.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -1404,11 +1414,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-CJT-007"
+   "SF-VES-006"
   ],
-  "titulo": "Story: Conjunto Colete Frente Única com Shorts",
+  "titulo": "Story: Vestido Ella",
   "arquivos": [
-   "instagram/midia/stories/SF-CJT-007.jpg"
+   "instagram/midia/stories/SF-VES-006.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -1438,11 +1448,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-CJT-008"
+   "SF-CAL-010"
   ],
-  "titulo": "Story: Conjunto Evasê Poá",
+  "titulo": "Story: Calça Balloon Carpenter Alta Acacia Espresso",
   "arquivos": [
-   "instagram/midia/stories/SF-CJT-008.jpg"
+   "instagram/midia/stories/SF-CAL-010.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -1455,13 +1465,13 @@
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
-   "SF-VES-026"
+   "SF-BLU-008"
   ],
-  "titulo": "Destaque: Vestido Midi Branco Recorte Busto",
+  "titulo": "Destaque: Blusa Mousse Raglan",
   "arquivos": [
-   "instagram/midia/feed/SF-VES-026.jpg"
+   "instagram/midia/feed/SF-BLU-008.jpg"
   ],
-  "legenda": "Vestido Midi Branco Recorte Busto ✨\n\nR$ 399,90 ou em até 3x sem juros.\n\nUm vestido para chegar bem em qualquer ocasião.\n\nQuer ver de perto? Atendemos em Franca/SP e levamos até você para experimentar com calma. Chame no WhatsApp (16) 99378-9775 ou veja o catálogo completo em susanafreitasstore.com.br (link na bio). 🤍\n\n#vestidofeminino #vestidoselegantes #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
+  "legenda": "Blusa Mousse Raglan, uma escolha da nossa curadoria ✨\n\nR$ 289,90 ou em até 3x sem juros.\n\nSimples de usar, difícil de esquecer.\n\nGostou? Chame no WhatsApp (16) 99378-9775 e a gente leva a peça até você. Mais opções em susanafreitasstore.com.br (link na bio). 🤍\n\n#blusafeminina #blusaselegantes #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
   "status": "pronto"
  },
  {
@@ -1472,11 +1482,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-VES-026"
+   "SF-BLU-008"
   ],
-  "titulo": "Story (chamada para o feed): Vestido Midi Branco Recorte Busto",
+  "titulo": "Story (chamada para o feed): Blusa Mousse Raglan",
   "arquivos": [
-   "instagram/midia/stories/SF-VES-026.jpg"
+   "instagram/midia/stories/SF-BLU-008.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -1489,11 +1499,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-VES-010"
+   "SF-SAI-003"
   ],
-  "titulo": "Story: Vestido Lorenza",
+  "titulo": "Story: Saia Jeans Longa Damaris",
   "arquivos": [
-   "instagram/midia/stories/SF-VES-010.jpg"
+   "instagram/midia/stories/SF-SAI-003.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -1523,11 +1533,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-VES-002"
+   "SF-CAL-009"
   ],
-  "titulo": "Story: Vestido Power Francine",
+  "titulo": "Story: Calça Jeans Mariah",
   "arquivos": [
-   "instagram/midia/stories/SF-VES-002.jpg"
+   "instagram/midia/stories/SF-CAL-009.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -1546,7 +1556,7 @@
   "arquivos": [
    "instagram/midia/feed/SF-BLU-001.jpg"
   ],
-  "legenda": "Novidade no nosso catálogo: Vestido Estampado Marrom 🤍\n\nDe R$ 339,90 por R$ 209,90. Condição especial enquanto durar o estoque.\n\nFeminilidade com presença, sem esforço.\n\nProve no conforto da sua casa, em Franca/SP. Agende pelo WhatsApp (16) 99378-9775. Catálogo completo: susanafreitasstore.com.br (link na bio). ✨\n\n#vestidofeminino #vestidoselegantes #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
+  "legenda": "Vestido Estampado Marrom ✨\n\nDe R$ 339,90 por R$ 209,90. Condição especial enquanto durar o estoque.\n\nUm vestido para chegar bem em qualquer ocasião.\n\nQuer ver de perto? Atendemos em Franca/SP e levamos até você para experimentar com calma. Chame no WhatsApp (16) 99378-9775 ou veja o catálogo completo em susanafreitasstore.com.br (link na bio). 🤍\n\n#vestidofeminino #vestidoselegantes #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
   "status": "pronto"
  },
  {
@@ -1574,11 +1584,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-VES-021"
+   "SF-CAL-001"
   ],
-  "titulo": "Story: Vestido Peplum Bordado",
+  "titulo": "Story: Calça Barrel Alta Lue",
   "arquivos": [
-   "instagram/midia/stories/SF-VES-021.jpg"
+   "instagram/midia/stories/SF-CAL-001.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -1590,12 +1600,14 @@
   "publicar_em_utc": "2026-12-13T13:30:00Z",
   "plataforma": "instagram",
   "tipo": "feed",
-  "skus": [],
-  "titulo": "Institucional: Parcelamos em até 3x sem juros.",
-  "arquivos": [
-   "instagram/midia/cartoes/feed_parcelamento.jpg"
+  "skus": [
+   "SF-CAL-006"
   ],
-  "legenda": "Parcelamos em até 3x sem juros. 💳\n\nEscolha sua peça no catálogo (susanafreitasstore.com.br, link na bio) e chame no WhatsApp (16) 99378-9775 para agendar sua visita.\n\n#modafeminina #modaelegante #boutiquefeminina #modadelivery",
+  "titulo": "Destaque: Shorts Sarja Alana",
+  "arquivos": [
+   "instagram/midia/feed/SF-CAL-006.jpg"
+  ],
+  "legenda": "Novidade no nosso catálogo: Shorts Sarja Alana 🤍\n\nR$ 389,90 ou em até 3x sem juros.\n\nUma escolha pensada para você.\n\nProve no conforto da sua casa, em Franca/SP. Agende pelo WhatsApp (16) 99378-9775. Catálogo completo: susanafreitasstore.com.br (link na bio). ✨\n\n#shortsfeminino #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
   "status": "pronto"
  },
  {
@@ -1603,184 +1615,6 @@
   "data": "2026-12-13",
   "hora_local": "15:00",
   "publicar_em_utc": "2026-12-13T18:00:00Z",
-  "plataforma": "instagram",
-  "tipo": "story",
-  "skus": [
-   "SF-VES-006"
-  ],
-  "titulo": "Story: Vestido Ella",
-  "arquivos": [
-   "instagram/midia/stories/SF-VES-006.jpg"
-  ],
-  "legenda": "",
-  "status": "pronto"
- },
- {
-  "id": "2026-12-13_2045_story_104",
-  "data": "2026-12-13",
-  "hora_local": "20:45",
-  "publicar_em_utc": "2026-12-13T23:45:00Z",
-  "plataforma": "instagram",
-  "tipo": "story",
-  "skus": [],
-  "titulo": "Story: agende sua visita",
-  "arquivos": [
-   "instagram/midia/cartoes/story_agende.jpg"
-  ],
-  "legenda": "",
-  "status": "pronto"
- },
- {
-  "id": "2026-12-14_0830_story_105",
-  "data": "2026-12-14",
-  "hora_local": "08:30",
-  "publicar_em_utc": "2026-12-14T11:30:00Z",
-  "plataforma": "instagram",
-  "tipo": "story",
-  "skus": [
-   "SF-CAL-010"
-  ],
-  "titulo": "Story: Calça Balloon Carpenter Alta Acacia Espresso",
-  "arquivos": [
-   "instagram/midia/stories/SF-CAL-010.jpg"
-  ],
-  "legenda": "",
-  "status": "pronto"
- },
- {
-  "id": "2026-12-14_1500_story_106",
-  "data": "2026-12-14",
-  "hora_local": "15:00",
-  "publicar_em_utc": "2026-12-14T18:00:00Z",
-  "plataforma": "instagram",
-  "tipo": "story",
-  "skus": [
-   "SF-SAI-003"
-  ],
-  "titulo": "Story: Saia Jeans Longa Damaris",
-  "arquivos": [
-   "instagram/midia/stories/SF-SAI-003.jpg"
-  ],
-  "legenda": "",
-  "status": "pronto"
- },
- {
-  "id": "2026-12-14_2000_feed_030",
-  "data": "2026-12-14",
-  "hora_local": "20:00",
-  "publicar_em_utc": "2026-12-14T23:00:00Z",
-  "plataforma": "instagram",
-  "tipo": "feed",
-  "skus": [
-   "SF-BLU-008"
-  ],
-  "titulo": "Destaque: Blusa Mousse Raglan",
-  "arquivos": [
-   "instagram/midia/feed/SF-BLU-008.jpg"
-  ],
-  "legenda": "Blusa Mousse Raglan, uma escolha da nossa curadoria ✨\n\nR$ 289,90 ou em até 3x sem juros.\n\nSimples de usar, difícil de esquecer.\n\nGostou? Chame no WhatsApp (16) 99378-9775 e a gente leva a peça até você. Mais opções em susanafreitasstore.com.br (link na bio). 🤍\n\n#blusafeminina #blusaselegantes #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
-  "status": "pronto"
- },
- {
-  "id": "2026-12-14_2045_story_107",
-  "data": "2026-12-14",
-  "hora_local": "20:45",
-  "publicar_em_utc": "2026-12-14T23:45:00Z",
-  "plataforma": "instagram",
-  "tipo": "story",
-  "skus": [
-   "SF-BLU-008"
-  ],
-  "titulo": "Story (chamada para o feed): Blusa Mousse Raglan",
-  "arquivos": [
-   "instagram/midia/stories/SF-BLU-008.jpg"
-  ],
-  "legenda": "",
-  "status": "pronto"
- },
- {
-  "id": "2026-12-15_0830_story_108",
-  "data": "2026-12-15",
-  "hora_local": "08:30",
-  "publicar_em_utc": "2026-12-15T11:30:00Z",
-  "plataforma": "instagram",
-  "tipo": "story",
-  "skus": [
-   "SF-CAL-009"
-  ],
-  "titulo": "Story: Calça Jeans Mariah",
-  "arquivos": [
-   "instagram/midia/stories/SF-CAL-009.jpg"
-  ],
-  "legenda": "",
-  "status": "pronto"
- },
- {
-  "id": "2026-12-15_1500_story_109",
-  "data": "2026-12-15",
-  "hora_local": "15:00",
-  "publicar_em_utc": "2026-12-15T18:00:00Z",
-  "plataforma": "instagram",
-  "tipo": "story",
-  "skus": [
-   "SF-CAL-001"
-  ],
-  "titulo": "Story: Calça Barrel Alta Lue",
-  "arquivos": [
-   "instagram/midia/stories/SF-CAL-001.jpg"
-  ],
-  "legenda": "",
-  "status": "pronto"
- },
- {
-  "id": "2026-12-15_2000_carrossel_031",
-  "data": "2026-12-15",
-  "hora_local": "20:00",
-  "publicar_em_utc": "2026-12-15T23:00:00Z",
-  "plataforma": "instagram",
-  "tipo": "carrossel",
-  "skus": [
-   "SF-VES-013",
-   "SF-VES-023",
-   "SF-VES-012",
-   "SF-VES-016",
-   "SF-VES-019"
-  ],
-  "titulo": "Seleção: Vestidos",
-  "arquivos": [
-   "instagram/midia/carrosseis/2026-12-15_vestidos/01_capa.jpg",
-   "instagram/midia/carrosseis/2026-12-15_vestidos/02_SF-VES-013.jpg",
-   "instagram/midia/carrosseis/2026-12-15_vestidos/03_SF-VES-023.jpg",
-   "instagram/midia/carrosseis/2026-12-15_vestidos/04_SF-VES-012.jpg",
-   "instagram/midia/carrosseis/2026-12-15_vestidos/05_SF-VES-016.jpg",
-   "instagram/midia/carrosseis/2026-12-15_vestidos/06_SF-VES-019.jpg",
-   "instagram/midia/carrosseis/2026-12-15_vestidos/07_fecho.jpg"
-  ],
-  "legenda": "Seleção: Vestidos 🤍\n\nDeslize e escolha a sua favorita:\n• Vestido Preto Midi Assimétrico: R$ 389,90\n• Vestido Tricô: R$ 379,90\n• Vestido Listrado: R$ 349,90\n• Vestido Helke: R$ 269,90\n• Vestido Mila Marrom: R$ 209,90\n\nQuer ver de perto? Atendemos em Franca/SP e levamos até você para experimentar com calma. Chame no WhatsApp (16) 99378-9775 ou veja o catálogo completo em susanafreitasstore.com.br (link na bio). 🤍\n\n#modafeminina #modaelegante #boutiquefeminina #modadelivery #lookdodia #francasp",
-  "status": "pronto"
- },
- {
-  "id": "2026-12-15_2045_story_110",
-  "data": "2026-12-15",
-  "hora_local": "20:45",
-  "publicar_em_utc": "2026-12-15T23:45:00Z",
-  "plataforma": "instagram",
-  "tipo": "story",
-  "skus": [
-   "SF-VES-013"
-  ],
-  "titulo": "Story (chamada para o feed): Vestido Preto Midi Assimétrico",
-  "arquivos": [
-   "instagram/midia/stories/SF-VES-013.jpg"
-  ],
-  "legenda": "",
-  "status": "pronto"
- },
- {
-  "id": "2026-12-16_0830_story_111",
-  "data": "2026-12-16",
-  "hora_local": "08:30",
-  "publicar_em_utc": "2026-12-16T11:30:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -1794,10 +1628,27 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-16_1500_story_112",
-  "data": "2026-12-16",
-  "hora_local": "15:00",
-  "publicar_em_utc": "2026-12-16T18:00:00Z",
+  "id": "2026-12-13_2045_story_104",
+  "data": "2026-12-13",
+  "hora_local": "20:45",
+  "publicar_em_utc": "2026-12-13T23:45:00Z",
+  "plataforma": "instagram",
+  "tipo": "story",
+  "skus": [
+   "SF-CAL-006"
+  ],
+  "titulo": "Story (chamada para o feed): Shorts Sarja Alana",
+  "arquivos": [
+   "instagram/midia/stories/SF-CAL-006.jpg"
+  ],
+  "legenda": "",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-12-14_0830_story_105",
+  "data": "2026-12-14",
+  "hora_local": "08:30",
+  "publicar_em_utc": "2026-12-14T11:30:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -1811,6 +1662,169 @@
   "status": "pronto"
  },
  {
+  "id": "2026-12-14_1500_story_106",
+  "data": "2026-12-14",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-14T18:00:00Z",
+  "plataforma": "instagram",
+  "tipo": "story",
+  "skus": [
+   "SF-VES-009"
+  ],
+  "titulo": "Story: Vestido Riviera",
+  "arquivos": [
+   "instagram/midia/stories/SF-VES-009.jpg"
+  ],
+  "legenda": "",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-12-14_2000_feed_030",
+  "data": "2026-12-14",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-14T23:00:00Z",
+  "plataforma": "instagram",
+  "tipo": "feed",
+  "skus": [
+   "SF-BLU-015"
+  ],
+  "titulo": "Destaque: Cropped Detalhe Renda",
+  "arquivos": [
+   "instagram/midia/feed/SF-BLU-015.jpg"
+  ],
+  "legenda": "Cropped Detalhe Renda, uma escolha da nossa curadoria ✨\n\nR$ 229,90 ou em até 3x sem juros.\n\nElegância com curadoria.\n\nGostou? Chame no WhatsApp (16) 99378-9775 e a gente leva a peça até você. Mais opções em susanafreitasstore.com.br (link na bio). 🤍\n\n#cropped #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-12-14_2045_story_107",
+  "data": "2026-12-14",
+  "hora_local": "20:45",
+  "publicar_em_utc": "2026-12-14T23:45:00Z",
+  "plataforma": "instagram",
+  "tipo": "story",
+  "skus": [
+   "SF-BLU-015"
+  ],
+  "titulo": "Story (chamada para o feed): Cropped Detalhe Renda",
+  "arquivos": [
+   "instagram/midia/stories/SF-BLU-015.jpg"
+  ],
+  "legenda": "",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-12-15_0830_story_108",
+  "data": "2026-12-15",
+  "hora_local": "08:30",
+  "publicar_em_utc": "2026-12-15T11:30:00Z",
+  "plataforma": "instagram",
+  "tipo": "story",
+  "skus": [
+   "SF-BLU-033"
+  ],
+  "titulo": "Story: Top Amélia Espresso",
+  "arquivos": [
+   "instagram/midia/stories/SF-BLU-033.jpg"
+  ],
+  "legenda": "",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-12-15_1500_story_109",
+  "data": "2026-12-15",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-15T18:00:00Z",
+  "plataforma": "instagram",
+  "tipo": "story",
+  "skus": [
+   "SF-VES-015"
+  ],
+  "titulo": "Story: Vestido Midi com Recorte Busto",
+  "arquivos": [
+   "instagram/midia/stories/SF-VES-015.jpg"
+  ],
+  "legenda": "",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-12-15_2000_carrossel_031",
+  "data": "2026-12-15",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-15T23:00:00Z",
+  "plataforma": "instagram",
+  "tipo": "carrossel",
+  "skus": [
+   "SF-VES-023",
+   "SF-VES-012",
+   "SF-VES-016",
+   "SF-VES-019",
+   "SF-VES-022"
+  ],
+  "titulo": "Seleção: Vestidos",
+  "arquivos": [
+   "instagram/midia/carrosseis/2026-12-15_vestidos/01_capa.jpg",
+   "instagram/midia/carrosseis/2026-12-15_vestidos/02_SF-VES-023.jpg",
+   "instagram/midia/carrosseis/2026-12-15_vestidos/03_SF-VES-012.jpg",
+   "instagram/midia/carrosseis/2026-12-15_vestidos/04_SF-VES-016.jpg",
+   "instagram/midia/carrosseis/2026-12-15_vestidos/05_SF-VES-019.jpg",
+   "instagram/midia/carrosseis/2026-12-15_vestidos/06_SF-VES-022.jpg",
+   "instagram/midia/carrosseis/2026-12-15_vestidos/07_fecho.jpg"
+  ],
+  "legenda": "Seleção: Vestidos 🤍\n\nDeslize e escolha a sua favorita:\n• Vestido Tricô: R$ 379,90\n• Vestido Listrado: R$ 349,90\n• Vestido Helke: R$ 269,90\n• Vestido Mila Marrom: R$ 209,90\n• Vestido Isis Vermelho: R$ 199,90\n\nQuer ver de perto? Atendemos em Franca/SP e levamos até você para experimentar com calma. Chame no WhatsApp (16) 99378-9775 ou veja o catálogo completo em susanafreitasstore.com.br (link na bio). 🤍\n\n#modafeminina #modaelegante #boutiquefeminina #modadelivery #lookdodia #francasp",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-12-15_2045_story_110",
+  "data": "2026-12-15",
+  "hora_local": "20:45",
+  "publicar_em_utc": "2026-12-15T23:45:00Z",
+  "plataforma": "instagram",
+  "tipo": "story",
+  "skus": [
+   "SF-VES-023"
+  ],
+  "titulo": "Story (chamada para o feed): Vestido Tricô",
+  "arquivos": [
+   "instagram/midia/stories/SF-VES-023.jpg"
+  ],
+  "legenda": "",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-12-16_0830_story_111",
+  "data": "2026-12-16",
+  "hora_local": "08:30",
+  "publicar_em_utc": "2026-12-16T11:30:00Z",
+  "plataforma": "instagram",
+  "tipo": "story",
+  "skus": [
+   "SF-BLU-016"
+  ],
+  "titulo": "Story: Camisa Cropped Loren Vanilla",
+  "arquivos": [
+   "instagram/midia/stories/SF-BLU-016.jpg"
+  ],
+  "legenda": "",
+  "status": "pronto"
+ },
+ {
+  "id": "2026-12-16_1500_story_112",
+  "data": "2026-12-16",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-16T18:00:00Z",
+  "plataforma": "instagram",
+  "tipo": "story",
+  "skus": [
+   "SF-CAL-004"
+  ],
+  "titulo": "Story: Calça Reta Alta Jade Ricci",
+  "arquivos": [
+   "instagram/midia/stories/SF-CAL-004.jpg"
+  ],
+  "legenda": "",
+  "status": "pronto"
+ },
+ {
   "id": "2026-12-16_2000_feed_032",
   "data": "2026-12-16",
   "hora_local": "20:00",
@@ -1818,13 +1832,13 @@
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
-   "SF-VES-022"
+   "SF-VES-001"
   ],
-  "titulo": "Destaque: Vestido Isis Vermelho",
+  "titulo": "Destaque: Vestido Anya",
   "arquivos": [
-   "instagram/midia/feed/SF-VES-022.jpg"
+   "instagram/midia/feed/SF-VES-001.jpg"
   ],
-  "legenda": "Vestido Isis Vermelho ✨\n\nR$ 199,90 ou em até 3x sem juros.\n\nUm vestido para chegar bem em qualquer ocasião.\n\nQuer ver de perto? Atendemos em Franca/SP e levamos até você para experimentar com calma. Chame no WhatsApp (16) 99378-9775 ou veja o catálogo completo em susanafreitasstore.com.br (link na bio). 🤍\n\n#vestidofeminino #vestidoselegantes #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
+  "legenda": "Vestido Anya ✨\n\nR$ 189,90 ou em até 3x sem juros.\n\nUm vestido para chegar bem em qualquer ocasião.\n\nQuer ver de perto? Atendemos em Franca/SP e levamos até você para experimentar com calma. Chame no WhatsApp (16) 99378-9775 ou veja o catálogo completo em susanafreitasstore.com.br (link na bio). 🤍\n\n#vestidofeminino #vestidoselegantes #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
   "status": "pronto"
  },
  {
@@ -1835,11 +1849,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-VES-022"
+   "SF-VES-001"
   ],
-  "titulo": "Story (chamada para o feed): Vestido Isis Vermelho",
+  "titulo": "Story (chamada para o feed): Vestido Anya",
   "arquivos": [
-   "instagram/midia/stories/SF-VES-022.jpg"
+   "instagram/midia/stories/SF-VES-001.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -1852,11 +1866,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-VES-009"
+   "SF-CAL-007"
   ],
-  "titulo": "Story: Vestido Riviera",
+  "titulo": "Story: Calça Reta Alfaiataria Cannes",
   "arquivos": [
-   "instagram/midia/stories/SF-VES-009.jpg"
+   "instagram/midia/stories/SF-CAL-007.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -1886,11 +1900,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-BLU-033"
+   "SF-CJT-006"
   ],
-  "titulo": "Story: Top Amélia Espresso",
+  "titulo": "Story: Casaco Trench Manga Curta",
   "arquivos": [
-   "instagram/midia/stories/SF-BLU-033.jpg"
+   "instagram/midia/stories/SF-CJT-006.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -1903,23 +1917,23 @@
   "plataforma": "instagram",
   "tipo": "carrossel",
   "skus": [
-   "SF-BLU-015",
    "SF-BLU-027",
    "SF-BLU-018",
    "SF-BLU-037",
-   "SF-BLU-007"
+   "SF-BLU-007",
+   "SF-BLU-024"
   ],
   "titulo": "Seleção: Blusas",
   "arquivos": [
    "instagram/midia/carrosseis/2026-12-17_blusas/01_capa.jpg",
-   "instagram/midia/carrosseis/2026-12-17_blusas/02_SF-BLU-015.jpg",
-   "instagram/midia/carrosseis/2026-12-17_blusas/03_SF-BLU-027.jpg",
-   "instagram/midia/carrosseis/2026-12-17_blusas/04_SF-BLU-018.jpg",
-   "instagram/midia/carrosseis/2026-12-17_blusas/05_SF-BLU-037.jpg",
-   "instagram/midia/carrosseis/2026-12-17_blusas/06_SF-BLU-007.jpg",
+   "instagram/midia/carrosseis/2026-12-17_blusas/02_SF-BLU-027.jpg",
+   "instagram/midia/carrosseis/2026-12-17_blusas/03_SF-BLU-018.jpg",
+   "instagram/midia/carrosseis/2026-12-17_blusas/04_SF-BLU-037.jpg",
+   "instagram/midia/carrosseis/2026-12-17_blusas/05_SF-BLU-007.jpg",
+   "instagram/midia/carrosseis/2026-12-17_blusas/06_SF-BLU-024.jpg",
    "instagram/midia/carrosseis/2026-12-17_blusas/07_fecho.jpg"
   ],
-  "legenda": "Seleção: Blusas 🤍\n\nDeslize e escolha a sua favorita:\n• Cropped Detalhe Renda: R$ 229,90\n• Polo Listrada Gola Tricoline: R$ 229,90\n• Blusa Zoe: R$ 228,00\n• Top Alças Gorgorão Marinho: R$ 209,90\n• Blusa Gola Ombro a Ombro: R$ 204,90\n\nProve no conforto da sua casa, em Franca/SP. Agende pelo WhatsApp (16) 99378-9775. Catálogo completo: susanafreitasstore.com.br (link na bio). ✨\n\n#modafeminina #modaelegante #boutiquefeminina #modadelivery #lookdodia #francasp",
+  "legenda": "Seleção: Blusas 🤍\n\nDeslize e escolha a sua favorita:\n• Polo Listrada Gola Tricoline: R$ 229,90\n• Blusa Zoe: R$ 228,00\n• Top Alças Gorgorão Marinho: R$ 209,90\n• Blusa Gola Ombro a Ombro: R$ 204,90\n• Blusa June Off White: R$ 169,90\n\nProve no conforto da sua casa, em Franca/SP. Agende pelo WhatsApp (16) 99378-9775. Catálogo completo: susanafreitasstore.com.br (link na bio). ✨\n\n#modafeminina #modaelegante #boutiquefeminina #modadelivery #lookdodia #francasp",
   "status": "pronto"
  },
  {
@@ -1930,11 +1944,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-BLU-015"
+   "SF-BLU-027"
   ],
-  "titulo": "Story (chamada para o feed): Cropped Detalhe Renda",
+  "titulo": "Story (chamada para o feed): Polo Listrada Gola Tricoline",
   "arquivos": [
-   "instagram/midia/stories/SF-BLU-015.jpg"
+   "instagram/midia/stories/SF-BLU-027.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -1947,11 +1961,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-VES-015"
+   "SF-SAI-002"
   ],
-  "titulo": "Story: Vestido Midi com Recorte Busto",
+  "titulo": "Story: Shorts Beca Rosa",
   "arquivos": [
-   "instagram/midia/stories/SF-VES-015.jpg"
+   "instagram/midia/stories/SF-SAI-002.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -1981,11 +1995,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-BLU-016"
+   "SF-VES-018"
   ],
-  "titulo": "Story: Camisa Cropped Loren Vanilla",
+  "titulo": "Story: Vestido Macaquinho",
   "arquivos": [
-   "instagram/midia/stories/SF-BLU-016.jpg"
+   "instagram/midia/stories/SF-VES-018.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -1998,13 +2012,13 @@
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
-   "SF-CAL-007"
+   "SF-CAL-002"
   ],
-  "titulo": "Destaque: Calça Reta Alfaiataria Cannes",
+  "titulo": "Destaque: Calça Alfaiataria Risca de Giz",
   "arquivos": [
-   "instagram/midia/feed/SF-CAL-007.jpg"
+   "instagram/midia/feed/SF-CAL-002.jpg"
   ],
-  "legenda": "Novidade no nosso catálogo: Calça Reta Alfaiataria Cannes 🤍\n\nR$ 429,90 ou em até 3x sem juros.\n\nUma base de look que rende combinações.\n\nProve no conforto da sua casa, em Franca/SP. Agende pelo WhatsApp (16) 99378-9775. Catálogo completo: susanafreitasstore.com.br (link na bio). ✨\n\n#calcafeminina #calcas #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
+  "legenda": "Novidade no nosso catálogo: Calça Alfaiataria Risca de Giz 🤍\n\nR$ 319,90 ou em até 3x sem juros.\n\nPara a rotina que não para, sem perder a elegância.\n\nProve no conforto da sua casa, em Franca/SP. Agende pelo WhatsApp (16) 99378-9775. Catálogo completo: susanafreitasstore.com.br (link na bio). ✨\n\n#calcafeminina #calcas #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
   "status": "pronto"
  },
  {
@@ -2015,11 +2029,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-CAL-007"
+   "SF-CAL-002"
   ],
-  "titulo": "Story (chamada para o feed): Calça Reta Alfaiataria Cannes",
+  "titulo": "Story (chamada para o feed): Calça Alfaiataria Risca de Giz",
   "arquivos": [
-   "instagram/midia/stories/SF-CAL-007.jpg"
+   "instagram/midia/stories/SF-CAL-002.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -2032,11 +2046,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-CAL-004"
+   "SF-VES-024"
   ],
-  "titulo": "Story: Calça Reta Alta Jade Ricci",
+  "titulo": "Story: Vestido Tomara que Caia Verde",
   "arquivos": [
-   "instagram/midia/stories/SF-CAL-004.jpg"
+   "instagram/midia/stories/SF-VES-024.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -2066,11 +2080,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-CAL-007"
+   "SF-VES-025"
   ],
-  "titulo": "Story: Calça Reta Alfaiataria Cannes",
+  "titulo": "Story: Vestido Midi Marinho Recorte Busto",
   "arquivos": [
-   "instagram/midia/stories/SF-CAL-007.jpg"
+   "instagram/midia/stories/SF-VES-025.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -2117,11 +2131,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-CJT-006"
+   "SF-VES-026"
   ],
-  "titulo": "Story: Casaco Trench Manga Curta",
+  "titulo": "Story: Vestido Midi Branco Recorte Busto",
   "arquivos": [
-   "instagram/midia/stories/SF-CJT-006.jpg"
+   "instagram/midia/stories/SF-VES-026.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -2133,12 +2147,14 @@
   "publicar_em_utc": "2026-12-20T13:30:00Z",
   "plataforma": "instagram",
   "tipo": "feed",
-  "skus": [],
-  "titulo": "Institucional: Atendimento próximo, humano e consultivo.",
-  "arquivos": [
-   "instagram/midia/cartoes/feed_atendimento.jpg"
+  "skus": [
+   "SF-VES-020"
   ],
-  "legenda": "Aqui o atendimento é próximo, humano e consultivo. Ajudamos você a escolher peças que realçam a sua melhor versão, sem pressa. 🤍\n\nChame no WhatsApp (16) 99378-9775 ou veja o catálogo em susanafreitasstore.com.br (link na bio).\n\n#modafeminina #modaelegante #boutiquefeminina #modadelivery",
+  "titulo": "Destaque: Vestido Maje",
+  "arquivos": [
+   "instagram/midia/feed/SF-VES-020.jpg"
+  ],
+  "legenda": "Vestido Maje ✨\n\nR$ 189,90 ou em até 3x sem juros.\n\nUm vestido para chegar bem em qualquer ocasião.\n\nQuer ver de perto? Atendemos em Franca/SP e levamos até você para experimentar com calma. Chame no WhatsApp (16) 99378-9775 ou veja o catálogo completo em susanafreitasstore.com.br (link na bio). 🤍\n\n#vestidofeminino #vestidoselegantes #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
   "status": "pronto"
  },
  {
@@ -2149,11 +2165,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-SAI-002"
+   "SF-CAL-006"
   ],
-  "titulo": "Story: Shorts Beca Rosa",
+  "titulo": "Story: Shorts Sarja Alana",
   "arquivos": [
-   "instagram/midia/stories/SF-SAI-002.jpg"
+   "instagram/midia/stories/SF-CAL-006.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -2165,10 +2181,12 @@
   "publicar_em_utc": "2026-12-20T23:45:00Z",
   "plataforma": "instagram",
   "tipo": "story",
-  "skus": [],
-  "titulo": "Story: agende sua visita",
+  "skus": [
+   "SF-VES-020"
+  ],
+  "titulo": "Story (chamada para o feed): Vestido Maje",
   "arquivos": [
-   "instagram/midia/cartoes/story_agende.jpg"
+   "instagram/midia/stories/SF-VES-020.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -2181,11 +2199,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-VES-018"
+   "SF-VES-013"
   ],
-  "titulo": "Story: Vestido Macaquinho",
+  "titulo": "Story: Vestido Preto Midi Assimétrico",
   "arquivos": [
-   "instagram/midia/stories/SF-VES-018.jpg"
+   "instagram/midia/stories/SF-VES-013.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -2198,11 +2216,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-VES-024"
+   "SF-CJT-003"
   ],
-  "titulo": "Story: Vestido Tomara que Caia Verde",
+  "titulo": "Story: Conjunto Formentera",
   "arquivos": [
-   "instagram/midia/stories/SF-VES-024.jpg"
+   "instagram/midia/stories/SF-CJT-003.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -2215,13 +2233,13 @@
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
-   "SF-VES-001"
+   "SF-CAL-012"
   ],
-  "titulo": "Destaque: Vestido Anya",
+  "titulo": "Destaque: Calça Jennifer Bege",
   "arquivos": [
-   "instagram/midia/feed/SF-VES-001.jpg"
+   "instagram/midia/feed/SF-CAL-012.jpg"
   ],
-  "legenda": "Vestido Anya ✨\n\nR$ 189,90 ou em até 3x sem juros.\n\nUm vestido para chegar bem em qualquer ocasião.\n\nQuer ver de perto? Atendemos em Franca/SP e levamos até você para experimentar com calma. Chame no WhatsApp (16) 99378-9775 ou veja o catálogo completo em susanafreitasstore.com.br (link na bio). 🤍\n\n#vestidofeminino #vestidoselegantes #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
+  "legenda": "Novidade no nosso catálogo: Calça Jennifer Bege 🤍\n\nR$ 219,90 ou em até 3x sem juros.\n\nUma base de look que rende combinações.\n\nProve no conforto da sua casa, em Franca/SP. Agende pelo WhatsApp (16) 99378-9775. Catálogo completo: susanafreitasstore.com.br (link na bio). ✨\n\n#calcafeminina #calcas #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #lookdodia",
   "status": "pronto"
  },
  {
@@ -2232,11 +2250,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-VES-001"
+   "SF-CAL-012"
   ],
-  "titulo": "Story (chamada para o feed): Vestido Anya",
+  "titulo": "Story (chamada para o feed): Calça Jennifer Bege",
   "arquivos": [
-   "instagram/midia/stories/SF-VES-001.jpg"
+   "instagram/midia/stories/SF-CAL-012.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -2249,11 +2267,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-VES-025"
+   "SF-BLU-025"
   ],
-  "titulo": "Story: Vestido Midi Marinho Recorte Busto",
+  "titulo": "Story: Blusa Siena",
   "arquivos": [
-   "instagram/midia/stories/SF-VES-025.jpg"
+   "instagram/midia/stories/SF-BLU-025.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -2266,11 +2284,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-VES-026"
+   "SF-VES-023"
   ],
-  "titulo": "Story: Vestido Midi Branco Recorte Busto",
+  "titulo": "Story: Vestido Tricô",
   "arquivos": [
-   "instagram/midia/stories/SF-VES-026.jpg"
+   "instagram/midia/stories/SF-VES-023.jpg"
   ],
   "legenda": "",
   "status": "pronto"
@@ -2283,23 +2301,23 @@
   "plataforma": "instagram",
   "tipo": "carrossel",
   "skus": [
-   "SF-CAL-006",
-   "SF-CAL-002",
-   "SF-CAL-012",
    "SF-CAL-003",
-   "SF-CAL-008"
+   "SF-CAL-008",
+   "SF-BLU-010",
+   "SF-BLU-021",
+   "SF-BLU-022"
   ],
-  "titulo": "Seleção: Calças",
+  "titulo": "Seleção da semana",
   "arquivos": [
-   "instagram/midia/carrosseis/2026-12-22_calcas/01_capa.jpg",
-   "instagram/midia/carrosseis/2026-12-22_calcas/02_SF-CAL-006.jpg",
-   "instagram/midia/carrosseis/2026-12-22_calcas/03_SF-CAL-002.jpg",
-   "instagram/midia/carrosseis/2026-12-22_calcas/04_SF-CAL-012.jpg",
-   "instagram/midia/carrosseis/2026-12-22_calcas/05_SF-CAL-003.jpg",
-   "instagram/midia/carrosseis/2026-12-22_calcas/06_SF-CAL-008.jpg",
-   "instagram/midia/carrosseis/2026-12-22_calcas/07_fecho.jpg"
+   "instagram/midia/carrosseis/2026-12-22_selecao_da_semana/01_capa.jpg",
+   "instagram/midia/carrosseis/2026-12-22_selecao_da_semana/02_SF-CAL-003.jpg",
+   "instagram/midia/carrosseis/2026-12-22_selecao_da_semana/03_SF-CAL-008.jpg",
+   "instagram/midia/carrosseis/2026-12-22_selecao_da_semana/04_SF-BLU-010.jpg",
+   "instagram/midia/carrosseis/2026-12-22_selecao_da_semana/05_SF-BLU-021.jpg",
+   "instagram/midia/carrosseis/2026-12-22_selecao_da_semana/06_SF-BLU-022.jpg",
+   "instagram/midia/carrosseis/2026-12-22_selecao_da_semana/07_fecho.jpg"
   ],
-  "legenda": "Seleção: Calças 🤍\n\nDeslize e escolha a sua favorita:\n• Shorts Sarja Alana: R$ 389,90\n• Calça Alfaiataria Risca de Giz: R$ 319,90\n• Calça Jennifer Bege: R$ 219,90\n• Calça Hermione Marrom: R$ 199,90\n• Calça Uxia Preto: R$ 179,90\n\nGostou? Chame no WhatsApp (16) 99378-9775 e a gente leva a peça até você. Mais opções em susanafreitasstore.com.br (link na bio). 🤍\n\n#modafeminina #modaelegante #boutiquefeminina #modadelivery #lookdodia #francasp",
+  "legenda": "Seleção da semana 🤍\n\nDeslize e escolha a sua favorita:\n• Calça Hermione Marrom: R$ 199,90\n• Calça Uxia Preto: R$ 179,90\n• Blusa Gloria Marinho: R$ 139,90\n• T-Shirt Malha Básica: R$ 139,90\n• Blusa Julie Azul: R$ 139,90\n\nGostou? Chame no WhatsApp (16) 99378-9775 e a gente leva a peça até você. Mais opções em susanafreitasstore.com.br (link na bio). 🤍\n\n#modafeminina #modaelegante #boutiquefeminina #modadelivery #lookdodia #francasp",
   "status": "pronto"
  },
  {
@@ -2310,11 +2328,11 @@
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
-   "SF-CAL-006"
+   "SF-CAL-003"
   ],
-  "titulo": "Story (chamada para o feed): Shorts Sarja Alana",
+  "titulo": "Story (chamada para o feed): Calça Hermione Marrom",
   "arquivos": [
-   "instagram/midia/stories/SF-CAL-006.jpg"
+   "instagram/midia/stories/SF-CAL-003.jpg"
   ],
   "legenda": "",
   "status": "pronto"

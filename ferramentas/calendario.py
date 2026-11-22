@@ -194,13 +194,11 @@ def gerar(inicio, dias):
             item(data, HORA_FEED, "carrossel", [r["sku"] for r in sel], arqs, leg, titulo="Black Friday: oportunidades",
                  obs="Usa so itens ja em OPORTUNIDADE, escolhidos entre os de melhor retorno. Nao criar desconto novo sem recalcular a margem.")
             feed_skus = [r["sku"] for r in sel]
-        elif wd == 6:  # domingo institucional
-            cod, tit, corpo, leg = INSTITUCIONAIS[inst_n % len(INSTITUCIONAIS)]
-            arq = midia.cartao(f"feed_{cod}.jpg", tit, corpo)
-            item(data, HORA_FEED_DOM, "feed", [], [str(arq.relative_to(ROOT)).replace("\\", "/")],
-                 leg.format(tel=base.WHATS_DISPLAY) + "\n\n#modafeminina #modaelegante #boutiquefeminina #modadelivery",
-                 titulo=f"Institucional: {tit}")
-            inst_n += 1
+        elif wd == 6:  # domingo: peca em destaque (cartoes institucionais suspensos ate ficarem prontos)
+            r = pegar_feed(lambda x: x["categoria"] == ["Vestidos", "Conjuntos & Coletes", "Blusas"][single_n % 3], 1, relax=True)[0]
+            item(data, HORA_FEED_DOM, "feed", [r["sku"]], [str(midia.arte_feed(r).relative_to(ROOT)).replace("\\", "/")],
+                 legenda_single(r, single_n), titulo=f"Destaque: {r['nome']}")
+            single_n += 1; feed_skus = [r["sku"]]
         elif wd == 5:  # sabado: oportunidade
             r = next((x for x in sabados if x["sku"] not in usados_feed), None) or (min(sabados, key=lambda x: uso_feed[x["sku"]]) if sabados else None)
             if r:
@@ -259,9 +257,11 @@ def gerar(inicio, dias):
         for hora, r in zip(HORAS_STORY[:2], stories_hoje):
             item(data, hora, "story", [r["sku"]], [str(midia.arte_story(r).relative_to(ROOT)).replace("\\", "/")], "",
                  titulo=f"Story: {r['nome']}")
-        if wd == 6 or not feed_skus:
-            arq = midia.cartao("story_agende.jpg", "Agende sua visita.", f"Levamos a curadoria até você. WhatsApp {base.WHATS_DISPLAY}.", largura=1080, altura=1920, rodape=True, esc=True)
-            item(data, HORAS_STORY[2], "story", [], [str(arq.relative_to(ROOT)).replace("\\", "/")], "", titulo="Story: agende sua visita")
+        if not feed_skus:
+            r = next((x for x in story_pool if x["sku"] not in usados_hoje and x["preco_por"]), story_pool[0])
+            uso_story[r["sku"]] += 1
+            item(data, HORAS_STORY[2], "story", [r["sku"]], [str(midia.arte_story(r).relative_to(ROOT)).replace("\\", "/")], "",
+                 titulo=f"Story: {r['nome']}")
         else:
             r = por_sku[feed_skus[0]]
             item(data, HORAS_STORY[2], "story", [r["sku"]], [str(midia.arte_story(r).relative_to(ROOT)).replace("\\", "/")], "",
@@ -323,7 +323,7 @@ def exportar(fila, por_sku):
     for linha in [
         ["Slot", "Horario (Brasilia)", "Racional (hipotese a testar com os Insights do Instagram)"],
         ["Feed (seg-sab)", HORA_FEED, "Insights (mid. recentes): 20h teve o melhor engajamento da noite; cliente em casa apos a rotina."],
-        ["Feed (domingo)", HORA_FEED_DOM, "Domingo de manha: consumo mais calmo; conteudo institucional."],
+        ["Feed (domingo)", HORA_FEED_DOM, "Domingo de manha: consumo mais calmo; peca em destaque (cartoes institucionais suspensos)."],
         ["Reels (qui/sex/sab)", HORA_REEL, "Insights: 13h foi a melhor faixa de engajamento; qui/sex/sab tem alcance 2-3x maior (media 150-270 vs ~80 contas/dia)."],
         ["Story 1", HORAS_STORY[0], "Primeira olhada do dia."],
         ["Story 2", HORAS_STORY[1], "Tarde (15h): segunda melhor faixa de engajamento; nao colide com o Reel das 13h."],
