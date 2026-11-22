@@ -13,13 +13,14 @@ Variaveis de ambiente (nunca no codigo; no GitHub use Settings > Secrets):
     MEDIA_BASE_URL    URL publica da raiz do repositorio, ex.:
                       https://raw.githubusercontent.com/USUARIO/REPO/main
     GRAPH_VERSION     opcional, padrao v21.0
+    GRAPH_HOST        opcional, padrao https://graph.facebook.com (use https://graph.instagram.com so com token do login do Instagram)
 """
 import sys, os, json, time, argparse, datetime as dt, urllib.request, urllib.parse, urllib.error
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 FILA = ROOT / "instagram" / "fila_postagens.json"
-HOST = "https://graph.instagram.com"
+HOST = os.environ.get("GRAPH_HOST", "https://graph.facebook.com")  # apps novos da Meta usam login unificado (graph.facebook.com)
 
 
 class ErroAPI(Exception):
