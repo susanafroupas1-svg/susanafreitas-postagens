@@ -187,8 +187,7 @@ def gerar(inicio, dias):
             for r in sel:
                 uso_feed[r["sku"]] += 1
                 usados_feed.add(r["sku"])
-            arqs = [str(midia.arte_feed(r).relative_to(ROOT)).replace("\\", "/") for r in sel]
-            arqs.append(str(midia.cartao("cta_carrossel.jpg", "Gostou de alguma peça?", "Agende sua visita: levamos até você para experimentar.", rodape=True, esc=True).relative_to(ROOT)).replace("\\", "/"))
+            arqs = [str(a.relative_to(ROOT)).replace("\\", "/") for a in midia.carrossel("Black Friday", sel, f"{data:%Y-%m-%d}_blackfriday", bf=True, forcar=True)]
             leg = ("Black Friday Susana Freitas Store 🖤\n\nOportunidades selecionadas, com condição especial enquanto durar o estoque:\n"
                    + "\n".join(f"• {r['nome']}: de {base.brl(r['preco_de'])} por {base.brl(r['preco_por'])}" for r in sel)
                    + f"\n\nChame no WhatsApp {base.WHATS_DISPLAY} e agende sua visita. Catálogo completo: susanafreitasstore.com.br (link na bio).\n\n#blackfriday #modafeminina #modaelegante #boutiquefeminina #modadelivery #oportunidade")
@@ -215,9 +214,8 @@ def gerar(inicio, dias):
             if len(sel) < 3:
                 sel += pegar_feed(lambda r: True, 5 - len(sel), relax=True)
                 cat = "Seleção da semana"
-            arqs = [str(midia.arte_feed(r).relative_to(ROOT)).replace("\\", "/") for r in sel]
-            arqs.append(str(midia.cartao("cta_carrossel.jpg", "Gostou de alguma peça?", "Agende sua visita: levamos até você para experimentar.", rodape=True, esc=True).relative_to(ROOT)).replace("\\", "/"))
             titulo = f"Seleção: {cat}" if cat != "Seleção da semana" else cat
+            arqs = [str(a.relative_to(ROOT)).replace("\\", "/") for a in midia.carrossel(titulo, sel, f"{data:%Y-%m-%d}_{slug_chave({'nome': cat}) if False else __import__('unicodedata').normalize('NFKD', cat.lower()).encode('ascii', 'ignore').decode().replace(' ', '_').replace('&', 'e')}", forcar=True)]
             item(data, HORA_FEED, "carrossel", [r["sku"] for r in sel], arqs, legenda_carrossel(titulo, sel, carr_n), titulo=titulo)
             feed_skus = [r["sku"] for r in sel]; carr_n += 1
         else:  # segunda, quarta, sexta: peca em destaque

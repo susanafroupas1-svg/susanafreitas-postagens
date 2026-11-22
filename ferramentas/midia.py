@@ -192,6 +192,132 @@ def cartao(nome_arquivo, titulo, corpo, largura=1080, altura=1350, rodape=True, 
     return destino
 
 
+# ---------------------------------------------------------------- CARROSSEL (1080x1350)
+CAR_DIR = MIDIA / "carrosseis"
+CSERIF, CSERIF_I, CSERIF_B, CSANS, CSANS_B = "constan.ttf", "constani.ttf", "constanb.ttf", "corbel.ttf", "corbelb.ttf"
+
+
+def _foto_cheia(im, w=1080, h=1350, ancora_y=0.12):
+    """Foto cobrindo w x h; se for muito estreita/larga, usa fundo desfocado."""
+    r = im.width / im.height
+    if r >= 0.66:
+        return cobrir(im, w, h, ancora_y)
+    bg = fundo_desfocado(im, w, h)
+    hh = h
+    ww = round(im.width * hh / im.height)
+    bg.paste(im.resize((ww, hh), Image.LANCZOS), ((w - ww) // 2, 0))
+    return bg
+
+
+def _degrade(tela, y0, y1, cor=ESPRESSO, maximo=235, topo=False):
+    g = Image.new("L", tela.size, 0)
+    gd = ImageDraw.Draw(g)
+    for y in range(y0, y1):
+        t = (y - y0) / (y1 - y0)
+        gd.line([(0, y), (tela.width, y)], fill=int(maximo * (t if not topo else 1 - t)))
+    return Image.composite(Image.new("RGB", tela.size, cor), tela, g)
+
+
+def _arco(foto, w, h):
+    """Recorta a foto em formato de arco (topo arredondado)."""
+    f = cobrir(foto, w, h, 0.12).convert("RGBA")
+    m = Image.new("L", (w, h), 0)
+    md = ImageDraw.Draw(m)
+    md.ellipse((0, 0, w, w), fill=255)
+    md.rectangle((0, w // 2, w, h), fill=255)
+    f.putalpha(m)
+    return f
+
+
+def carrossel(titulo, itens, pasta, bf=False, forcar=False):
+    """Gera capa + 1 slide por peca + fecho. Retorna lista de caminhos."""
+    saida = CAR_DIR / pasta
+    arqs = [saida / "01_capa.jpg"] + [saida / f"{i + 2:02d}_{r['sku']}.jpg" for i, r in enumerate(itens)] + [saida / f"{len(itens) + 2:02d}_fecho.jpg"]
+    if all(a.exists() for a in arqs) and not forcar:
+        return arqs
+    saida.mkdir(parents=True, exist_ok=True)
+    fotos = [abrir(r) for r in itens]
+    n_total = len(arqs)
+    ac = BORDO if bf else MOCHA
+
+    # --- capa: triptico + titulo
+    cap = Image.new("RGB", (1080, 1350), PEARL)
+    k = min(3, len(fotos))
+    gap, mx = 14, 60
+    pw = (1080 - 2 * mx - gap * (k - 1)) // k
+    for i in range(k):
+        cap.paste(cobrir(fotos[i], pw, 840, 0.12), (mx + i * (pw + gap), 120))
+    d = ImageDraw.Draw(cap)
+    texto_espacado(d, (0, 50), "SUSANA FREITAS STORE", fonte(CSANS_B, 26), ESPRESSO, 8, centro_em=540)
+    sub = "OPORTUNIDADES SELECIONADAS" if bf else "SELEÇÃO"
+    texto_espacado(d, (0, 1010), sub, fonte(CSANS_B, 28), ac, 7, centro_em=540)
+    tit = titulo.replace("Seleção: ", "") if not bf else "Black Friday"
+    f_t = fonte(CSERIF_I, 128)
+    while d.textlength(tit, font=f_t) > 940 and f_t.size > 60:
+        f_t = fonte(CSERIF_I, f_t.size - 6)
+    centralizado(d, 1060, tit, f_t, ESPRESSO)
+    d.line([(480, 1235), (600, 1235)], fill=ac, width=3)
+    f_d = fonte(CSANS, 32)
+    txt_d = "deslize para ver as peças"
+    wd_ = d.textlength(txt_d, font=f_d)
+    x_d = (1080 - (wd_ + 60)) / 2
+    d.text((x_d, 1262), txt_d, font=f_d, fill=MOCHA)
+    xa, ya = x_d + wd_ + 18, 1281      # seta desenhada (a fonte nao tem o glifo)
+    d.line([(xa, ya), (xa + 36, ya)], fill=MOCHA, width=3)
+    d.line([(xa + 26, ya - 9), (xa + 37, ya)], fill=MOCHA, width=3)
+    d.line([(xa + 26, ya + 9), (xa + 37, ya)], fill=MOCHA, width=3)
+    cap.save(arqs[0], quality=93, subsampling=0)
+
+    # --- um slide por peca
+    for i, (r, im) in enumerate(zip(itens, fotos)):
+        t = _foto_cheia(im)
+        t = _degrade(t, 820, 1350, ESPRESSO, 238)
+        t = _degrade(t, 0, 200, ESPRESSO, 120, topo=True)
+        d = ImageDraw.Draw(t)
+        texto_espacado(d, (0, 56), "SUSANA FREITAS STORE", fonte(CSANS_B, 24), PEARL, 8, centro_em=540)
+        d.text((1080 - 60 - d.textlength(f"{i + 2:02d} / {n_total:02d}", font=fonte(CSANS, 26)), 112), f"{i + 2:02d} / {n_total:02d}", font=fonte(CSANS, 26), fill=FENDI)
+        if r.get("selo_oportunidade"):
+            d.rectangle((60, 110, 310, 160), fill=BORDO)
+            texto_espacado(d, (0, 121), "OPORTUNIDADE", fonte(CSANS_B, 24), PEARL, 4, centro_em=185)
+        nome = r["nome"]
+        f_n = fonte(CSERIF, 66)
+        while d.textlength(nome, font=f_n) > 940 and f_n.size > 38:
+            f_n = fonte(CSERIF, f_n.size - 2)
+        centralizado(d, 1090, nome, f_n, PEARL)
+        d.line([(500, 1190), (580, 1190)], fill=FENDI, width=2)
+        por, de = r.get("preco_por"), r.get("preco_de")
+        f_p = fonte(CSERIF_B, 62)
+        if por and de and r.get("em_promocao"):
+            f_de = fonte(CSANS, 36)
+            t_de, t_por = f"de {base.brl(de)}", f"por {base.brl(por)}"
+            w1, w2 = d.textlength(t_de, font=f_de), d.textlength(t_por, font=f_p)
+            x = (1080 - (w1 + 34 + w2)) / 2
+            d.text((x, 1226), t_de, font=f_de, fill=FENDI)
+            d.line([(x, 1250), (x + w1, 1250)], fill=FENDI, width=3)
+            d.text((x + w1 + 34, 1212), t_por, font=f_p, fill=PEARL)
+        elif por:
+            centralizado(d, 1212, base.brl(por), f_p, PEARL)
+        t.save(arqs[i + 1], quality=93, subsampling=0)
+
+    # --- fecho: arcos + chamada
+    fe = Image.new("RGB", (1080, 1350), ESPRESSO)
+    aw = 400
+    ah = 640
+    for j, im in enumerate(fotos[-2:] if len(fotos) >= 2 else fotos[-1:] * 2):
+        x = 1080 // 2 - aw - 14 + j * (aw + 28) if True else 0
+        fe.paste(_arco(im, aw, ah), (x, 150), _arco(im, aw, ah))
+    d = ImageDraw.Draw(fe)
+    texto_espacado(d, (0, 60), "SUSANA FREITAS STORE", fonte(CSANS_B, 26), FENDI, 8, centro_em=540)
+    centralizado(d, 840, "Gostou de alguma peça?", fonte(CSERIF_I, 80), PEARL)
+    centralizado(d, 950, "Agende sua visita: levamos a loja até você.", fonte(CSANS, 38), FENDI)
+    d.line([(480, 1030), (600, 1030)], fill=FENDI, width=2)
+    centralizado(d, 1070, f"WhatsApp {base.WHATS_DISPLAY}", fonte(CSANS_B, 46), PEARL)
+    centralizado(d, 1140, "Catálogo completo: susanafreitasstore.com.br", fonte(CSANS, 34), FENDI)
+    centralizado(d, 1190, "(link na bio)", fonte(CSANS, 30), MOCHA)
+    fe.save(arqs[-1], quality=93, subsampling=0)
+    return arqs
+
+
 if __name__ == "__main__":
     rows = base.carregar()
     r = next(x for x in rows if x["em_promocao"])
