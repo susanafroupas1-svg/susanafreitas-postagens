@@ -1,6 +1,6 @@
 [
  {
-  "id": "2026-11-23_0830_story_043",
+  "id": "2026-11-23_0830_story_042",
   "data": "2026-11-23",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-11-23T11:30:00Z",
@@ -17,10 +17,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-23_1300_story_044",
+  "id": "2026-11-23_1500_story_043",
   "data": "2026-11-23",
-  "hora_local": "13:00",
-  "publicar_em_utc": "2026-11-23T16:00:00Z",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-11-23T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -34,10 +34,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-23_1930_feed_000",
+  "id": "2026-11-23_2000_feed_000",
   "data": "2026-11-23",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-11-23T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-11-23T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
@@ -51,7 +51,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-23_2045_story_045",
+  "id": "2026-11-23_2045_story_044",
   "data": "2026-11-23",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-11-23T23:45:00Z",
@@ -68,7 +68,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-24_0830_story_046",
+  "id": "2026-11-24_0830_story_045",
   "data": "2026-11-24",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-11-24T11:30:00Z",
@@ -85,27 +85,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-24_1200_reel_002",
+  "id": "2026-11-24_1500_story_046",
   "data": "2026-11-24",
-  "hora_local": "12:00",
-  "publicar_em_utc": "2026-11-24T15:00:00Z",
-  "plataforma": "instagram",
-  "tipo": "reel",
-  "skus": [
-   "SF-CAL-011"
-  ],
-  "titulo": "Reel: Calça Jeans Barrel Cropped Rebeca",
-  "arquivos": [
-   "instagram/midia/reels/SF-CAL-011.mp4"
-  ],
-  "legenda": "Calça Jeans Barrel Cropped Rebeca em movimento ✨\n\nR$ 489,00 ou em até 3x sem juros.\n\nQuer ver de perto? Atendemos em Franca/SP e levamos até você para experimentar com calma. Chame no WhatsApp (16) 99378-9775 ou veja o catálogo completo em susanafreitasstore.com.br (link na bio). 🤍\n\n#calcafeminina #calcas #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #reels",
-  "status": "aguardando_midia"
- },
- {
-  "id": "2026-11-24_1300_story_047",
-  "data": "2026-11-24",
-  "hora_local": "13:00",
-  "publicar_em_utc": "2026-11-24T16:00:00Z",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-11-24T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -119,10 +102,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-24_1930_carrossel_001",
+  "id": "2026-11-24_2000_carrossel_001",
   "data": "2026-11-24",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-11-24T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-11-24T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "carrossel",
   "skus": [
@@ -145,7 +128,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-24_2045_story_048",
+  "id": "2026-11-24_2045_story_047",
   "data": "2026-11-24",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-11-24T23:45:00Z",
@@ -162,7 +145,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-25_0830_story_049",
+  "id": "2026-11-25_0830_story_048",
   "data": "2026-11-25",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-11-25T11:30:00Z",
@@ -179,10 +162,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-25_1300_story_050",
+  "id": "2026-11-25_1500_story_049",
   "data": "2026-11-25",
-  "hora_local": "13:00",
-  "publicar_em_utc": "2026-11-25T16:00:00Z",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-11-25T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -196,10 +179,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-25_1930_feed_003",
+  "id": "2026-11-25_2000_feed_002",
   "data": "2026-11-25",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-11-25T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-11-25T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
@@ -213,7 +196,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-25_2045_story_051",
+  "id": "2026-11-25_2045_story_050",
   "data": "2026-11-25",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-11-25T23:45:00Z",
@@ -230,7 +213,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-26_0830_story_052",
+  "id": "2026-11-26_0830_story_051",
   "data": "2026-11-26",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-11-26T11:30:00Z",
@@ -247,27 +230,27 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-26_1200_reel_005",
-  "data": "2026-11-26",
-  "hora_local": "12:00",
-  "publicar_em_utc": "2026-11-26T15:00:00Z",
-  "plataforma": "instagram",
-  "tipo": "reel",
-  "skus": [
-   "SF-CJT-010"
-  ],
-  "titulo": "Reel: Macacão Balloon Gianna Natural",
-  "arquivos": [
-   "instagram/midia/reels/SF-CJT-010.mp4"
-  ],
-  "legenda": "Macacão Balloon Gianna Natural em movimento ✨\n\nR$ 819,00 ou em até 3x sem juros.\n\nProve no conforto da sua casa, em Franca/SP. Agende pelo WhatsApp (16) 99378-9775. Catálogo completo: susanafreitasstore.com.br (link na bio). ✨\n\n#macacao #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #reels",
-  "status": "aguardando_midia"
- },
- {
-  "id": "2026-11-26_1300_story_053",
+  "id": "2026-11-26_1300_reel_004",
   "data": "2026-11-26",
   "hora_local": "13:00",
   "publicar_em_utc": "2026-11-26T16:00:00Z",
+  "plataforma": "instagram",
+  "tipo": "reel",
+  "skus": [
+   "SF-CAL-011"
+  ],
+  "titulo": "Reel: Calça Jeans Barrel Cropped Rebeca",
+  "arquivos": [
+   "instagram/midia/reels/SF-CAL-011.mp4"
+  ],
+  "legenda": "Calça Jeans Barrel Cropped Rebeca em movimento ✨\n\nR$ 489,00 ou em até 3x sem juros.\n\nQuer ver de perto? Atendemos em Franca/SP e levamos até você para experimentar com calma. Chame no WhatsApp (16) 99378-9775 ou veja o catálogo completo em susanafreitasstore.com.br (link na bio). 🤍\n\n#calcafeminina #calcas #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #reels",
+  "status": "aguardando_midia"
+ },
+ {
+  "id": "2026-11-26_1500_story_052",
+  "data": "2026-11-26",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-11-26T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -281,10 +264,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-26_1930_carrossel_004",
+  "id": "2026-11-26_2000_carrossel_003",
   "data": "2026-11-26",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-11-26T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-11-26T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "carrossel",
   "skus": [
@@ -307,7 +290,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-26_2045_story_054",
+  "id": "2026-11-26_2045_story_053",
   "data": "2026-11-26",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-11-26T23:45:00Z",
@@ -324,7 +307,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-27_0830_story_055",
+  "id": "2026-11-27_0830_story_054",
   "data": "2026-11-27",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-11-27T11:30:00Z",
@@ -341,10 +324,27 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-27_1300_story_056",
+  "id": "2026-11-27_1300_reel_006",
   "data": "2026-11-27",
   "hora_local": "13:00",
   "publicar_em_utc": "2026-11-27T16:00:00Z",
+  "plataforma": "instagram",
+  "tipo": "reel",
+  "skus": [
+   "SF-CJT-010"
+  ],
+  "titulo": "Reel: Macacão Balloon Gianna Natural",
+  "arquivos": [
+   "instagram/midia/reels/SF-CJT-010.mp4"
+  ],
+  "legenda": "Macacão Balloon Gianna Natural em movimento ✨\n\nR$ 819,00 ou em até 3x sem juros.\n\nProve no conforto da sua casa, em Franca/SP. Agende pelo WhatsApp (16) 99378-9775. Catálogo completo: susanafreitasstore.com.br (link na bio). ✨\n\n#macacao #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #reels",
+  "status": "aguardando_midia"
+ },
+ {
+  "id": "2026-11-27_1500_story_055",
+  "data": "2026-11-27",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-11-27T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -358,10 +358,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-27_1930_carrossel_006",
+  "id": "2026-11-27_2000_carrossel_005",
   "data": "2026-11-27",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-11-27T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-11-27T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "carrossel",
   "skus": [
@@ -384,7 +384,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-27_2045_story_057",
+  "id": "2026-11-27_2045_story_056",
   "data": "2026-11-27",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-11-27T23:45:00Z",
@@ -401,7 +401,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-28_0830_story_058",
+  "id": "2026-11-28_0830_story_057",
   "data": "2026-11-28",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-11-28T11:30:00Z",
@@ -418,10 +418,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-28_1200_reel_008",
+  "id": "2026-11-28_1300_reel_008",
   "data": "2026-11-28",
-  "hora_local": "12:00",
-  "publicar_em_utc": "2026-11-28T15:00:00Z",
+  "hora_local": "13:00",
+  "publicar_em_utc": "2026-11-28T16:00:00Z",
   "plataforma": "instagram",
   "tipo": "reel",
   "skus": [
@@ -435,10 +435,10 @@
   "status": "aguardando_midia"
  },
  {
-  "id": "2026-11-28_1300_story_059",
+  "id": "2026-11-28_1500_story_058",
   "data": "2026-11-28",
-  "hora_local": "13:00",
-  "publicar_em_utc": "2026-11-28T16:00:00Z",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-11-28T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -452,10 +452,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-28_1930_feed_007",
+  "id": "2026-11-28_2000_feed_007",
   "data": "2026-11-28",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-11-28T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-11-28T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
@@ -469,7 +469,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-28_2045_story_060",
+  "id": "2026-11-28_2045_story_059",
   "data": "2026-11-28",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-11-28T23:45:00Z",
@@ -486,7 +486,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-29_0830_story_061",
+  "id": "2026-11-29_0830_story_060",
   "data": "2026-11-29",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-11-29T11:30:00Z",
@@ -518,10 +518,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-29_1300_story_062",
+  "id": "2026-11-29_1500_story_061",
   "data": "2026-11-29",
-  "hora_local": "13:00",
-  "publicar_em_utc": "2026-11-29T16:00:00Z",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-11-29T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -535,7 +535,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-29_2045_story_063",
+  "id": "2026-11-29_2045_story_062",
   "data": "2026-11-29",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-11-29T23:45:00Z",
@@ -550,7 +550,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-30_0830_story_064",
+  "id": "2026-11-30_0830_story_063",
   "data": "2026-11-30",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-11-30T11:30:00Z",
@@ -567,10 +567,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-30_1300_story_065",
+  "id": "2026-11-30_1500_story_064",
   "data": "2026-11-30",
-  "hora_local": "13:00",
-  "publicar_em_utc": "2026-11-30T16:00:00Z",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-11-30T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -584,10 +584,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-30_1930_feed_010",
+  "id": "2026-11-30_2000_feed_010",
   "data": "2026-11-30",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-11-30T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-11-30T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
@@ -601,7 +601,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-11-30_2045_story_066",
+  "id": "2026-11-30_2045_story_065",
   "data": "2026-11-30",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-11-30T23:45:00Z",
@@ -618,7 +618,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-01_0830_story_067",
+  "id": "2026-12-01_0830_story_066",
   "data": "2026-12-01",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-12-01T11:30:00Z",
@@ -635,27 +635,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-01_1200_reel_012",
+  "id": "2026-12-01_1500_story_067",
   "data": "2026-12-01",
-  "hora_local": "12:00",
-  "publicar_em_utc": "2026-12-01T15:00:00Z",
-  "plataforma": "instagram",
-  "tipo": "reel",
-  "skus": [
-   "SF-VES-018"
-  ],
-  "titulo": "Reel: Vestido Macaquinho",
-  "arquivos": [
-   "instagram/midia/reels/SF-VES-018.mp4"
-  ],
-  "legenda": "Vestido Macaquinho em movimento ✨\n\nR$ 399,90 ou em até 3x sem juros.\n\nQuer ver de perto? Atendemos em Franca/SP e levamos até você para experimentar com calma. Chame no WhatsApp (16) 99378-9775 ou veja o catálogo completo em susanafreitasstore.com.br (link na bio). 🤍\n\n#vestidofeminino #vestidoselegantes #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #reels",
-  "status": "aguardando_midia"
- },
- {
-  "id": "2026-12-01_1300_story_068",
-  "data": "2026-12-01",
-  "hora_local": "13:00",
-  "publicar_em_utc": "2026-12-01T16:00:00Z",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-01T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -669,10 +652,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-01_1930_carrossel_011",
+  "id": "2026-12-01_2000_carrossel_011",
   "data": "2026-12-01",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-12-01T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-01T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "carrossel",
   "skus": [
@@ -695,7 +678,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-01_2045_story_069",
+  "id": "2026-12-01_2045_story_068",
   "data": "2026-12-01",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-12-01T23:45:00Z",
@@ -712,7 +695,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-02_0830_story_070",
+  "id": "2026-12-02_0830_story_069",
   "data": "2026-12-02",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-12-02T11:30:00Z",
@@ -729,10 +712,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-02_1300_story_071",
+  "id": "2026-12-02_1500_story_070",
   "data": "2026-12-02",
-  "hora_local": "13:00",
-  "publicar_em_utc": "2026-12-02T16:00:00Z",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-02T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -746,10 +729,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-02_1930_feed_013",
+  "id": "2026-12-02_2000_feed_012",
   "data": "2026-12-02",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-12-02T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-02T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
@@ -763,7 +746,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-02_2045_story_072",
+  "id": "2026-12-02_2045_story_071",
   "data": "2026-12-02",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-12-02T23:45:00Z",
@@ -780,7 +763,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-03_0830_story_073",
+  "id": "2026-12-03_0830_story_072",
   "data": "2026-12-03",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-12-03T11:30:00Z",
@@ -797,27 +780,27 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-03_1200_reel_015",
-  "data": "2026-12-03",
-  "hora_local": "12:00",
-  "publicar_em_utc": "2026-12-03T15:00:00Z",
-  "plataforma": "instagram",
-  "tipo": "reel",
-  "skus": [
-   "SF-VES-019"
-  ],
-  "titulo": "Reel: Vestido Mila Marrom",
-  "arquivos": [
-   "instagram/midia/reels/SF-VES-019.mp4"
-  ],
-  "legenda": "Vestido Mila Marrom em movimento ✨\n\nR$ 209,90 ou em até 3x sem juros.\n\nProve no conforto da sua casa, em Franca/SP. Agende pelo WhatsApp (16) 99378-9775. Catálogo completo: susanafreitasstore.com.br (link na bio). ✨\n\n#vestidofeminino #vestidoselegantes #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #reels",
-  "status": "aguardando_midia"
- },
- {
-  "id": "2026-12-03_1300_story_074",
+  "id": "2026-12-03_1300_reel_014",
   "data": "2026-12-03",
   "hora_local": "13:00",
   "publicar_em_utc": "2026-12-03T16:00:00Z",
+  "plataforma": "instagram",
+  "tipo": "reel",
+  "skus": [
+   "SF-VES-018"
+  ],
+  "titulo": "Reel: Vestido Macaquinho",
+  "arquivos": [
+   "instagram/midia/reels/SF-VES-018.mp4"
+  ],
+  "legenda": "Vestido Macaquinho em movimento ✨\n\nR$ 399,90 ou em até 3x sem juros.\n\nQuer ver de perto? Atendemos em Franca/SP e levamos até você para experimentar com calma. Chame no WhatsApp (16) 99378-9775 ou veja o catálogo completo em susanafreitasstore.com.br (link na bio). 🤍\n\n#vestidofeminino #vestidoselegantes #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #reels",
+  "status": "aguardando_midia"
+ },
+ {
+  "id": "2026-12-03_1500_story_073",
+  "data": "2026-12-03",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-03T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -831,10 +814,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-03_1930_carrossel_014",
+  "id": "2026-12-03_2000_carrossel_013",
   "data": "2026-12-03",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-12-03T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-03T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "carrossel",
   "skus": [
@@ -857,7 +840,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-03_2045_story_075",
+  "id": "2026-12-03_2045_story_074",
   "data": "2026-12-03",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-12-03T23:45:00Z",
@@ -874,7 +857,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-04_0830_story_076",
+  "id": "2026-12-04_0830_story_075",
   "data": "2026-12-04",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-12-04T11:30:00Z",
@@ -891,10 +874,27 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-04_1300_story_077",
+  "id": "2026-12-04_1300_reel_016",
   "data": "2026-12-04",
   "hora_local": "13:00",
   "publicar_em_utc": "2026-12-04T16:00:00Z",
+  "plataforma": "instagram",
+  "tipo": "reel",
+  "skus": [
+   "SF-VES-019"
+  ],
+  "titulo": "Reel: Vestido Mila Marrom",
+  "arquivos": [
+   "instagram/midia/reels/SF-VES-019.mp4"
+  ],
+  "legenda": "Vestido Mila Marrom em movimento ✨\n\nR$ 209,90 ou em até 3x sem juros.\n\nProve no conforto da sua casa, em Franca/SP. Agende pelo WhatsApp (16) 99378-9775. Catálogo completo: susanafreitasstore.com.br (link na bio). ✨\n\n#vestidofeminino #vestidoselegantes #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #reels",
+  "status": "aguardando_midia"
+ },
+ {
+  "id": "2026-12-04_1500_story_076",
+  "data": "2026-12-04",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-04T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -908,10 +908,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-04_1930_feed_016",
+  "id": "2026-12-04_2000_feed_015",
   "data": "2026-12-04",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-12-04T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-04T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
@@ -925,7 +925,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-04_2045_story_078",
+  "id": "2026-12-04_2045_story_077",
   "data": "2026-12-04",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-12-04T23:45:00Z",
@@ -942,7 +942,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-05_0830_story_079",
+  "id": "2026-12-05_0830_story_078",
   "data": "2026-12-05",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-12-05T11:30:00Z",
@@ -959,10 +959,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-05_1200_reel_018",
+  "id": "2026-12-05_1300_reel_018",
   "data": "2026-12-05",
-  "hora_local": "12:00",
-  "publicar_em_utc": "2026-12-05T15:00:00Z",
+  "hora_local": "13:00",
+  "publicar_em_utc": "2026-12-05T16:00:00Z",
   "plataforma": "instagram",
   "tipo": "reel",
   "skus": [
@@ -976,10 +976,10 @@
   "status": "aguardando_midia"
  },
  {
-  "id": "2026-12-05_1300_story_080",
+  "id": "2026-12-05_1500_story_079",
   "data": "2026-12-05",
-  "hora_local": "13:00",
-  "publicar_em_utc": "2026-12-05T16:00:00Z",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-05T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -993,10 +993,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-05_1930_feed_017",
+  "id": "2026-12-05_2000_feed_017",
   "data": "2026-12-05",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-12-05T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-05T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
@@ -1010,7 +1010,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-05_2045_story_081",
+  "id": "2026-12-05_2045_story_080",
   "data": "2026-12-05",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-12-05T23:45:00Z",
@@ -1027,7 +1027,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-06_0830_story_082",
+  "id": "2026-12-06_0830_story_081",
   "data": "2026-12-06",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-12-06T11:30:00Z",
@@ -1059,10 +1059,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-06_1300_story_083",
+  "id": "2026-12-06_1500_story_082",
   "data": "2026-12-06",
-  "hora_local": "13:00",
-  "publicar_em_utc": "2026-12-06T16:00:00Z",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-06T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -1076,7 +1076,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-06_2045_story_084",
+  "id": "2026-12-06_2045_story_083",
   "data": "2026-12-06",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-12-06T23:45:00Z",
@@ -1091,7 +1091,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-07_0830_story_085",
+  "id": "2026-12-07_0830_story_084",
   "data": "2026-12-07",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-12-07T11:30:00Z",
@@ -1108,10 +1108,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-07_1300_story_086",
+  "id": "2026-12-07_1500_story_085",
   "data": "2026-12-07",
-  "hora_local": "13:00",
-  "publicar_em_utc": "2026-12-07T16:00:00Z",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-07T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -1125,10 +1125,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-07_1930_feed_020",
+  "id": "2026-12-07_2000_feed_020",
   "data": "2026-12-07",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-12-07T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-07T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
@@ -1142,7 +1142,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-07_2045_story_087",
+  "id": "2026-12-07_2045_story_086",
   "data": "2026-12-07",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-12-07T23:45:00Z",
@@ -1159,7 +1159,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-08_0830_story_088",
+  "id": "2026-12-08_0830_story_087",
   "data": "2026-12-08",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-12-08T11:30:00Z",
@@ -1176,27 +1176,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-08_1200_reel_022",
+  "id": "2026-12-08_1500_story_088",
   "data": "2026-12-08",
-  "hora_local": "12:00",
-  "publicar_em_utc": "2026-12-08T15:00:00Z",
-  "plataforma": "instagram",
-  "tipo": "reel",
-  "skus": [
-   "SF-CJT-008"
-  ],
-  "titulo": "Reel: Conjunto Evasê Poá",
-  "arquivos": [
-   "instagram/midia/reels/SF-CJT-008.mp4"
-  ],
-  "legenda": "Conjunto Evasê Poá em movimento ✨\n\nR$ 609,90 ou em até 3x sem juros.\n\nQuer ver de perto? Atendemos em Franca/SP e levamos até você para experimentar com calma. Chame no WhatsApp (16) 99378-9775 ou veja o catálogo completo em susanafreitasstore.com.br (link na bio). 🤍\n\n#conjuntofeminino #conjuntoelegante #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #reels",
-  "status": "aguardando_midia"
- },
- {
-  "id": "2026-12-08_1300_story_089",
-  "data": "2026-12-08",
-  "hora_local": "13:00",
-  "publicar_em_utc": "2026-12-08T16:00:00Z",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-08T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -1210,10 +1193,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-08_1930_carrossel_021",
+  "id": "2026-12-08_2000_carrossel_021",
   "data": "2026-12-08",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-12-08T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-08T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "carrossel",
   "skus": [
@@ -1232,7 +1215,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-08_2045_story_090",
+  "id": "2026-12-08_2045_story_089",
   "data": "2026-12-08",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-12-08T23:45:00Z",
@@ -1249,7 +1232,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-09_0830_story_091",
+  "id": "2026-12-09_0830_story_090",
   "data": "2026-12-09",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-12-09T11:30:00Z",
@@ -1266,10 +1249,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-09_1300_story_092",
+  "id": "2026-12-09_1500_story_091",
   "data": "2026-12-09",
-  "hora_local": "13:00",
-  "publicar_em_utc": "2026-12-09T16:00:00Z",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-09T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -1283,10 +1266,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-09_1930_feed_023",
+  "id": "2026-12-09_2000_feed_022",
   "data": "2026-12-09",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-12-09T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-09T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
@@ -1300,7 +1283,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-09_2045_story_093",
+  "id": "2026-12-09_2045_story_092",
   "data": "2026-12-09",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-12-09T23:45:00Z",
@@ -1317,7 +1300,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-10_0830_story_094",
+  "id": "2026-12-10_0830_story_093",
   "data": "2026-12-10",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-12-10T11:30:00Z",
@@ -1334,27 +1317,27 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-10_1200_reel_025",
-  "data": "2026-12-10",
-  "hora_local": "12:00",
-  "publicar_em_utc": "2026-12-10T15:00:00Z",
-  "plataforma": "instagram",
-  "tipo": "reel",
-  "skus": [
-   "SF-VES-010"
-  ],
-  "titulo": "Reel: Vestido Lorenza",
-  "arquivos": [
-   "instagram/midia/reels/SF-VES-010.mp4"
-  ],
-  "legenda": "Vestido Lorenza em movimento ✨\n\nR$ 599,90 ou em até 3x sem juros.\n\nProve no conforto da sua casa, em Franca/SP. Agende pelo WhatsApp (16) 99378-9775. Catálogo completo: susanafreitasstore.com.br (link na bio). ✨\n\n#vestidofeminino #vestidoselegantes #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #reels",
-  "status": "aguardando_midia"
- },
- {
-  "id": "2026-12-10_1300_story_095",
+  "id": "2026-12-10_1300_reel_024",
   "data": "2026-12-10",
   "hora_local": "13:00",
   "publicar_em_utc": "2026-12-10T16:00:00Z",
+  "plataforma": "instagram",
+  "tipo": "reel",
+  "skus": [
+   "SF-CJT-008"
+  ],
+  "titulo": "Reel: Conjunto Evasê Poá",
+  "arquivos": [
+   "instagram/midia/reels/SF-CJT-008.mp4"
+  ],
+  "legenda": "Conjunto Evasê Poá em movimento ✨\n\nR$ 609,90 ou em até 3x sem juros.\n\nQuer ver de perto? Atendemos em Franca/SP e levamos até você para experimentar com calma. Chame no WhatsApp (16) 99378-9775 ou veja o catálogo completo em susanafreitasstore.com.br (link na bio). 🤍\n\n#conjuntofeminino #conjuntoelegante #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #reels",
+  "status": "aguardando_midia"
+ },
+ {
+  "id": "2026-12-10_1500_story_094",
+  "data": "2026-12-10",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-10T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -1368,10 +1351,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-10_1930_carrossel_024",
+  "id": "2026-12-10_2000_carrossel_023",
   "data": "2026-12-10",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-12-10T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-10T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "carrossel",
   "skus": [
@@ -1390,7 +1373,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-10_2045_story_096",
+  "id": "2026-12-10_2045_story_095",
   "data": "2026-12-10",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-12-10T23:45:00Z",
@@ -1407,7 +1390,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-11_0830_story_097",
+  "id": "2026-12-11_0830_story_096",
   "data": "2026-12-11",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-12-11T11:30:00Z",
@@ -1424,10 +1407,27 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-11_1300_story_098",
+  "id": "2026-12-11_1300_reel_026",
   "data": "2026-12-11",
   "hora_local": "13:00",
   "publicar_em_utc": "2026-12-11T16:00:00Z",
+  "plataforma": "instagram",
+  "tipo": "reel",
+  "skus": [
+   "SF-VES-010"
+  ],
+  "titulo": "Reel: Vestido Lorenza",
+  "arquivos": [
+   "instagram/midia/reels/SF-VES-010.mp4"
+  ],
+  "legenda": "Vestido Lorenza em movimento ✨\n\nR$ 599,90 ou em até 3x sem juros.\n\nProve no conforto da sua casa, em Franca/SP. Agende pelo WhatsApp (16) 99378-9775. Catálogo completo: susanafreitasstore.com.br (link na bio). ✨\n\n#vestidofeminino #vestidoselegantes #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #reels",
+  "status": "aguardando_midia"
+ },
+ {
+  "id": "2026-12-11_1500_story_097",
+  "data": "2026-12-11",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-11T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -1441,10 +1441,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-11_1930_feed_026",
+  "id": "2026-12-11_2000_feed_025",
   "data": "2026-12-11",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-12-11T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-11T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
@@ -1458,7 +1458,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-11_2045_story_099",
+  "id": "2026-12-11_2045_story_098",
   "data": "2026-12-11",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-12-11T23:45:00Z",
@@ -1475,7 +1475,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-12_0830_story_100",
+  "id": "2026-12-12_0830_story_099",
   "data": "2026-12-12",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-12-12T11:30:00Z",
@@ -1492,10 +1492,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-12_1200_reel_028",
+  "id": "2026-12-12_1300_reel_028",
   "data": "2026-12-12",
-  "hora_local": "12:00",
-  "publicar_em_utc": "2026-12-12T15:00:00Z",
+  "hora_local": "13:00",
+  "publicar_em_utc": "2026-12-12T16:00:00Z",
   "plataforma": "instagram",
   "tipo": "reel",
   "skus": [
@@ -1509,10 +1509,10 @@
   "status": "aguardando_midia"
  },
  {
-  "id": "2026-12-12_1300_story_101",
+  "id": "2026-12-12_1500_story_100",
   "data": "2026-12-12",
-  "hora_local": "13:00",
-  "publicar_em_utc": "2026-12-12T16:00:00Z",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-12T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -1526,10 +1526,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-12_1930_feed_027",
+  "id": "2026-12-12_2000_feed_027",
   "data": "2026-12-12",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-12-12T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-12T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
@@ -1543,7 +1543,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-12_2045_story_102",
+  "id": "2026-12-12_2045_story_101",
   "data": "2026-12-12",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-12-12T23:45:00Z",
@@ -1560,7 +1560,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-13_0830_story_103",
+  "id": "2026-12-13_0830_story_102",
   "data": "2026-12-13",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-12-13T11:30:00Z",
@@ -1592,10 +1592,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-13_1300_story_104",
+  "id": "2026-12-13_1500_story_103",
   "data": "2026-12-13",
-  "hora_local": "13:00",
-  "publicar_em_utc": "2026-12-13T16:00:00Z",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-13T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -1609,7 +1609,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-13_2045_story_105",
+  "id": "2026-12-13_2045_story_104",
   "data": "2026-12-13",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-12-13T23:45:00Z",
@@ -1624,7 +1624,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-14_0830_story_106",
+  "id": "2026-12-14_0830_story_105",
   "data": "2026-12-14",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-12-14T11:30:00Z",
@@ -1641,10 +1641,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-14_1300_story_107",
+  "id": "2026-12-14_1500_story_106",
   "data": "2026-12-14",
-  "hora_local": "13:00",
-  "publicar_em_utc": "2026-12-14T16:00:00Z",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-14T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -1658,10 +1658,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-14_1930_feed_030",
+  "id": "2026-12-14_2000_feed_030",
   "data": "2026-12-14",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-12-14T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-14T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
@@ -1675,7 +1675,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-14_2045_story_108",
+  "id": "2026-12-14_2045_story_107",
   "data": "2026-12-14",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-12-14T23:45:00Z",
@@ -1692,7 +1692,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-15_0830_story_109",
+  "id": "2026-12-15_0830_story_108",
   "data": "2026-12-15",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-12-15T11:30:00Z",
@@ -1709,27 +1709,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-15_1200_reel_032",
+  "id": "2026-12-15_1500_story_109",
   "data": "2026-12-15",
-  "hora_local": "12:00",
-  "publicar_em_utc": "2026-12-15T15:00:00Z",
-  "plataforma": "instagram",
-  "tipo": "reel",
-  "skus": [
-   "SF-VES-021"
-  ],
-  "titulo": "Reel: Vestido Peplum Bordado",
-  "arquivos": [
-   "instagram/midia/reels/SF-VES-021.mp4"
-  ],
-  "legenda": "Vestido Peplum Bordado em movimento ✨\n\nR$ 569,90 ou em até 3x sem juros.\n\nQuer ver de perto? Atendemos em Franca/SP e levamos até você para experimentar com calma. Chame no WhatsApp (16) 99378-9775 ou veja o catálogo completo em susanafreitasstore.com.br (link na bio). 🤍\n\n#vestidofeminino #vestidoselegantes #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #reels",
-  "status": "aguardando_midia"
- },
- {
-  "id": "2026-12-15_1300_story_110",
-  "data": "2026-12-15",
-  "hora_local": "13:00",
-  "publicar_em_utc": "2026-12-15T16:00:00Z",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-15T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -1743,10 +1726,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-15_1930_carrossel_031",
+  "id": "2026-12-15_2000_carrossel_031",
   "data": "2026-12-15",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-12-15T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-15T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "carrossel",
   "skus": [
@@ -1769,7 +1752,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-15_2045_story_111",
+  "id": "2026-12-15_2045_story_110",
   "data": "2026-12-15",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-12-15T23:45:00Z",
@@ -1786,7 +1769,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-16_0830_story_112",
+  "id": "2026-12-16_0830_story_111",
   "data": "2026-12-16",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-12-16T11:30:00Z",
@@ -1803,10 +1786,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-16_1300_story_113",
+  "id": "2026-12-16_1500_story_112",
   "data": "2026-12-16",
-  "hora_local": "13:00",
-  "publicar_em_utc": "2026-12-16T16:00:00Z",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-16T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -1820,10 +1803,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-16_1930_feed_033",
+  "id": "2026-12-16_2000_feed_032",
   "data": "2026-12-16",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-12-16T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-16T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
@@ -1837,7 +1820,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-16_2045_story_114",
+  "id": "2026-12-16_2045_story_113",
   "data": "2026-12-16",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-12-16T23:45:00Z",
@@ -1854,7 +1837,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-17_0830_story_115",
+  "id": "2026-12-17_0830_story_114",
   "data": "2026-12-17",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-12-17T11:30:00Z",
@@ -1871,27 +1854,27 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-17_1200_reel_035",
-  "data": "2026-12-17",
-  "hora_local": "12:00",
-  "publicar_em_utc": "2026-12-17T15:00:00Z",
-  "plataforma": "instagram",
-  "tipo": "reel",
-  "skus": [
-   "SF-CAL-010"
-  ],
-  "titulo": "Reel: Calça Balloon Carpenter Alta Acacia Espresso",
-  "arquivos": [
-   "instagram/midia/reels/SF-CAL-010.mp4"
-  ],
-  "legenda": "Calça Balloon Carpenter Alta Acacia Espresso em movimento ✨\n\nR$ 549,00 ou em até 3x sem juros.\n\nProve no conforto da sua casa, em Franca/SP. Agende pelo WhatsApp (16) 99378-9775. Catálogo completo: susanafreitasstore.com.br (link na bio). ✨\n\n#calcafeminina #calcas #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #reels",
-  "status": "aguardando_midia"
- },
- {
-  "id": "2026-12-17_1300_story_116",
+  "id": "2026-12-17_1300_reel_034",
   "data": "2026-12-17",
   "hora_local": "13:00",
   "publicar_em_utc": "2026-12-17T16:00:00Z",
+  "plataforma": "instagram",
+  "tipo": "reel",
+  "skus": [
+   "SF-VES-021"
+  ],
+  "titulo": "Reel: Vestido Peplum Bordado",
+  "arquivos": [
+   "instagram/midia/reels/SF-VES-021.mp4"
+  ],
+  "legenda": "Vestido Peplum Bordado em movimento ✨\n\nR$ 569,90 ou em até 3x sem juros.\n\nQuer ver de perto? Atendemos em Franca/SP e levamos até você para experimentar com calma. Chame no WhatsApp (16) 99378-9775 ou veja o catálogo completo em susanafreitasstore.com.br (link na bio). 🤍\n\n#vestidofeminino #vestidoselegantes #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #reels",
+  "status": "aguardando_midia"
+ },
+ {
+  "id": "2026-12-17_1500_story_115",
+  "data": "2026-12-17",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-17T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -1905,10 +1888,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-17_1930_carrossel_034",
+  "id": "2026-12-17_2000_carrossel_033",
   "data": "2026-12-17",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-12-17T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-17T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "carrossel",
   "skus": [
@@ -1931,7 +1914,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-17_2045_story_117",
+  "id": "2026-12-17_2045_story_116",
   "data": "2026-12-17",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-12-17T23:45:00Z",
@@ -1948,7 +1931,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-18_0830_story_118",
+  "id": "2026-12-18_0830_story_117",
   "data": "2026-12-18",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-12-18T11:30:00Z",
@@ -1965,10 +1948,27 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-18_1300_story_119",
+  "id": "2026-12-18_1300_reel_036",
   "data": "2026-12-18",
   "hora_local": "13:00",
   "publicar_em_utc": "2026-12-18T16:00:00Z",
+  "plataforma": "instagram",
+  "tipo": "reel",
+  "skus": [
+   "SF-CAL-010"
+  ],
+  "titulo": "Reel: Calça Balloon Carpenter Alta Acacia Espresso",
+  "arquivos": [
+   "instagram/midia/reels/SF-CAL-010.mp4"
+  ],
+  "legenda": "Calça Balloon Carpenter Alta Acacia Espresso em movimento ✨\n\nR$ 549,00 ou em até 3x sem juros.\n\nProve no conforto da sua casa, em Franca/SP. Agende pelo WhatsApp (16) 99378-9775. Catálogo completo: susanafreitasstore.com.br (link na bio). ✨\n\n#calcafeminina #calcas #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #reels",
+  "status": "aguardando_midia"
+ },
+ {
+  "id": "2026-12-18_1500_story_118",
+  "data": "2026-12-18",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-18T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -1982,10 +1982,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-18_1930_feed_036",
+  "id": "2026-12-18_2000_feed_035",
   "data": "2026-12-18",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-12-18T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-18T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
@@ -1999,7 +1999,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-18_2045_story_120",
+  "id": "2026-12-18_2045_story_119",
   "data": "2026-12-18",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-12-18T23:45:00Z",
@@ -2016,7 +2016,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-19_0830_story_121",
+  "id": "2026-12-19_0830_story_120",
   "data": "2026-12-19",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-12-19T11:30:00Z",
@@ -2033,10 +2033,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-19_1200_reel_038",
+  "id": "2026-12-19_1300_reel_038",
   "data": "2026-12-19",
-  "hora_local": "12:00",
-  "publicar_em_utc": "2026-12-19T15:00:00Z",
+  "hora_local": "13:00",
+  "publicar_em_utc": "2026-12-19T16:00:00Z",
   "plataforma": "instagram",
   "tipo": "reel",
   "skus": [
@@ -2050,10 +2050,10 @@
   "status": "aguardando_midia"
  },
  {
-  "id": "2026-12-19_1300_story_122",
+  "id": "2026-12-19_1500_story_121",
   "data": "2026-12-19",
-  "hora_local": "13:00",
-  "publicar_em_utc": "2026-12-19T16:00:00Z",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-19T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -2067,10 +2067,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-19_1930_feed_037",
+  "id": "2026-12-19_2000_feed_037",
   "data": "2026-12-19",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-12-19T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-19T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
@@ -2084,7 +2084,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-19_2045_story_123",
+  "id": "2026-12-19_2045_story_122",
   "data": "2026-12-19",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-12-19T23:45:00Z",
@@ -2101,7 +2101,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-20_0830_story_124",
+  "id": "2026-12-20_0830_story_123",
   "data": "2026-12-20",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-12-20T11:30:00Z",
@@ -2133,10 +2133,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-20_1300_story_125",
+  "id": "2026-12-20_1500_story_124",
   "data": "2026-12-20",
-  "hora_local": "13:00",
-  "publicar_em_utc": "2026-12-20T16:00:00Z",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-20T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -2150,7 +2150,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-20_2045_story_126",
+  "id": "2026-12-20_2045_story_125",
   "data": "2026-12-20",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-12-20T23:45:00Z",
@@ -2165,7 +2165,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-21_0830_story_127",
+  "id": "2026-12-21_0830_story_126",
   "data": "2026-12-21",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-12-21T11:30:00Z",
@@ -2182,10 +2182,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-21_1300_story_128",
+  "id": "2026-12-21_1500_story_127",
   "data": "2026-12-21",
-  "hora_local": "13:00",
-  "publicar_em_utc": "2026-12-21T16:00:00Z",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-21T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -2199,10 +2199,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-21_1930_feed_040",
+  "id": "2026-12-21_2000_feed_040",
   "data": "2026-12-21",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-12-21T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-21T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "feed",
   "skus": [
@@ -2216,7 +2216,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-21_2045_story_129",
+  "id": "2026-12-21_2045_story_128",
   "data": "2026-12-21",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-12-21T23:45:00Z",
@@ -2233,7 +2233,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-22_0830_story_130",
+  "id": "2026-12-22_0830_story_129",
   "data": "2026-12-22",
   "hora_local": "08:30",
   "publicar_em_utc": "2026-12-22T11:30:00Z",
@@ -2250,27 +2250,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-22_1200_reel_042",
+  "id": "2026-12-22_1500_story_130",
   "data": "2026-12-22",
-  "hora_local": "12:00",
-  "publicar_em_utc": "2026-12-22T15:00:00Z",
-  "plataforma": "instagram",
-  "tipo": "reel",
-  "skus": [
-   "SF-CAL-009"
-  ],
-  "titulo": "Reel: Calça Jeans Mariah",
-  "arquivos": [
-   "instagram/midia/reels/SF-CAL-009.mp4"
-  ],
-  "legenda": "Calça Jeans Mariah em movimento ✨\n\nR$ 489,90 ou em até 3x sem juros.\n\nQuer ver de perto? Atendemos em Franca/SP e levamos até você para experimentar com calma. Chame no WhatsApp (16) 99378-9775 ou veja o catálogo completo em susanafreitasstore.com.br (link na bio). 🤍\n\n#calcafeminina #calcas #modafeminina #modaelegante #boutiquefeminina #modadelivery #francasp #reels",
-  "status": "aguardando_midia"
- },
- {
-  "id": "2026-12-22_1300_story_131",
-  "data": "2026-12-22",
-  "hora_local": "13:00",
-  "publicar_em_utc": "2026-12-22T16:00:00Z",
+  "hora_local": "15:00",
+  "publicar_em_utc": "2026-12-22T18:00:00Z",
   "plataforma": "instagram",
   "tipo": "story",
   "skus": [
@@ -2284,10 +2267,10 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-22_1930_carrossel_041",
+  "id": "2026-12-22_2000_carrossel_041",
   "data": "2026-12-22",
-  "hora_local": "19:30",
-  "publicar_em_utc": "2026-12-22T22:30:00Z",
+  "hora_local": "20:00",
+  "publicar_em_utc": "2026-12-22T23:00:00Z",
   "plataforma": "instagram",
   "tipo": "carrossel",
   "skus": [
@@ -2310,7 +2293,7 @@
   "status": "pronto"
  },
  {
-  "id": "2026-12-22_2045_story_132",
+  "id": "2026-12-22_2045_story_131",
   "data": "2026-12-22",
   "hora_local": "20:45",
   "publicar_em_utc": "2026-12-22T23:45:00Z",

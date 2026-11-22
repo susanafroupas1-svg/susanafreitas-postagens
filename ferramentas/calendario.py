@@ -21,9 +21,9 @@ FILA = IG / "fila_postagens.json"
 REELS_DIR = IG / "midia" / "reels"
 UTC_OFFSET_H = 3  # Brasilia = UTC-3 (sem horario de verao desde 2019)
 
-HORA_FEED, HORA_FEED_DOM, HORA_REEL = "19:30", "10:30", "12:00"
-HORAS_STORY = ["08:30", "13:00", "20:45"]
-DIAS_REEL = {1, 3, 5}  # terca, quinta, sabado
+HORA_FEED, HORA_FEED_DOM, HORA_REEL = "20:00", "10:30", "13:00"
+HORAS_STORY = ["08:30", "15:00", "20:45"]
+DIAS_REEL = {3, 4, 5}  # quinta, sexta, sabado (maior alcance nos Insights)
 ROTACAO_CARROSSEL = ["Vestidos", "Blusas", "Calças", "Conjuntos & Coletes", "Saias", "Tricôs"]
 DATAS_ESPECIAIS = {
     dt.date(2026, 11, 27): "black_friday",
@@ -324,11 +324,11 @@ def exportar(fila, por_sku):
     hip = wb.create_sheet("Horarios (hipoteses)")
     for linha in [
         ["Slot", "Horario (Brasilia)", "Racional (hipotese a testar com os Insights do Instagram)"],
-        ["Feed (seg-sab)", HORA_FEED, "Fim do dia: a cliente-alvo esta em casa, rolando o feed apos o trabalho/rotina."],
+        ["Feed (seg-sab)", HORA_FEED, "Insights (mid. recentes): 20h teve o melhor engajamento da noite; cliente em casa apos a rotina."],
         ["Feed (domingo)", HORA_FEED_DOM, "Domingo de manha: consumo mais calmo; conteudo institucional."],
-        ["Reels (ter/qui/sab)", HORA_REEL, "Horario de almoco: pico de uso no celular."],
+        ["Reels (qui/sex/sab)", HORA_REEL, "Insights: 13h foi a melhor faixa de engajamento; qui/sex/sab tem alcance 2-3x maior (media 150-270 vs ~80 contas/dia)."],
         ["Story 1", HORAS_STORY[0], "Primeira olhada do dia."],
-        ["Story 2", HORAS_STORY[1], "Pos-almoco."],
+        ["Story 2", HORAS_STORY[1], "Tarde (15h): segunda melhor faixa de engajamento; nao colide com o Reel das 13h."],
         ["Story 3", HORAS_STORY[2], "Chamada para o feed do dia + WhatsApp no horario de maior conversa."],
         ["Como calibrar", "", "Depois de 14 dias, abrir Insights > Audiencia > Horarios mais ativos e mover os posts para os picos reais dos seus 1.754 seguidores."],
     ]:
