@@ -1,0 +1,12 @@
+# Dados internos (custos e margens) e material bruto: NAO vao para o GitHub publico
+catalogo/
+POSTAGENS/
+instagram/calendario_30_dias.*
+instagram/destaques/
+.env
+*.env
+__pycache__/
+node_modules/
+
+# Guias internos (citam contas e decisoes internas): nao publicar
+GUIA_CONECTAR_META_API.md
