@@ -2,7 +2,7 @@ name: Postar no Instagram
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # a cada 15 min; o GitHub pode atrasar alguns minutos
+    - cron: "*/10 * * * *"   # o GitHub atrasa muito (~1x/hora); por isso cada execucao fica vigiando a fila por quase 3 h
   workflow_dispatch:         # permite rodar manualmente em Actions > Run workflow
 
 permissions:
@@ -15,6 +15,7 @@ concurrency:
 jobs:
   postar:
     runs-on: ubuntu-latest
+    timeout-minutes: 175
     steps:
       - uses: actions/checkout@v4
 
@@ -22,19 +23,12 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Publicar itens vencidos
+      - name: Vigiar a fila e publicar no horario (minuto a minuto)
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           MEDIA_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}
-        run: python ferramentas/postar.py --executar
-
-      - name: Salvar status da fila
         run: |
           git config user.name "poster-bot"
           git config user.email "poster-bot@users.noreply.github.com"
-          git add instagram/fila_postagens.json
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: atualiza status da fila de postagens"
-            git push
-          fi
+          bash ferramentas/ciclo.sh 165

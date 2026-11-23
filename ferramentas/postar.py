@@ -19,7 +19,9 @@ import sys, os, json, time, argparse, datetime as dt, urllib.request, urllib.par
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-FILA = ROOT / "instagram" / "fila_postagens.json"
+FILA = ROOT / "instagram" / "fila_postagens.json"          # conteudo dos posts (so o calendario altera)
+STATUS = ROOT / "instagram" / "status_postagens.json"       # o que ja foi publicado/erro (so o robo altera)
+CAMPOS_STATUS = ("status", "ig_media_id", "publicado_em", "erro", "creation_id")
 HOST = os.environ.get("GRAPH_HOST", "https://graph.facebook.com")  # apps novos da Meta usam login unificado (graph.facebook.com)
 
 
@@ -90,6 +92,13 @@ def main():
 
     agora = dt.datetime.strptime(a.agora, "%Y-%m-%dT%H:%M:%SZ") if a.agora else dt.datetime.utcnow()
     fila = json.loads(FILA.read_text(encoding="utf-8"))
+    status = json.loads(STATUS.read_text(encoding="utf-8")) if STATUS.exists() else {}
+    for it in fila:                      # sobrepoe o status registrado pelo robo
+        it.update(status.get(it["id"], {}))
+
+    def gravar(it):
+        status[it["id"]] = {k: it[k] for k in CAMPOS_STATUS if k in it}
+        STATUS.write_text(json.dumps(status, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
     cfg = dict(uid=os.environ.get("IG_USER_ID", ""), token=os.environ.get("IG_ACCESS_TOKEN", ""),
                base_url=os.environ.get("MEDIA_BASE_URL", "https://exemplo.invalid"), versao=os.environ.get("GRAPH_VERSION", "v21.0"))
     if a.executar and not (cfg["uid"] and cfg["token"] and os.environ.get("MEDIA_BASE_URL")):
@@ -105,6 +114,7 @@ def main():
         if (agora - quando).total_seconds() > a.janela_min * 60:
             if a.executar:
                 it["status"] = "perdido"
+                gravar(it)
             continue
         falta = [x for x in it["arquivos"] if not (ROOT / x).exists()]
         if falta:
@@ -126,9 +136,8 @@ def main():
         except Exception as e:  # registra e segue com os proximos
             it["status"], it["erro"] = "erro", str(e)[:500]
             print(f"ERRO {it['id']}: {e}")
-        FILA.write_text(json.dumps(fila, ensure_ascii=False, indent=1), encoding="utf-8")
+        gravar(it)
     if a.executar:
-        FILA.write_text(json.dumps(fila, ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"{publicados} publicado(s).")
 
 
