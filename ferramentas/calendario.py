@@ -3,7 +3,7 @@
     python -I ferramentas/calendario.py --inicio 2026-11-23 --dias 30
 
 Regras (editaveis no topo do arquivo):
-  - Feed 1x/dia, Reels 3x/semana (Ter/Qui/Sab), Stories 3x/dia.
+  - Feed 2x/dia, Reels 3x/semana (Qui/Sex/Sab), Stories 6x/dia (8 posts/dia), cada story de uma categoria.
   - Prioriza pecas de maior lucro unitario e sem margem critica; rotaciona categorias;
     cobre o catalogo todo em Stories; Sabado = oportunidade; Domingo = institucional.
   - Se rodar de novo com --inicio posterior, preserva o que ja foi publicado e evita repetir pecas.
@@ -22,7 +22,12 @@ REELS_DIR = IG / "midia" / "reels"
 UTC_OFFSET_H = 3  # Brasilia = UTC-3 (sem horario de verao desde 2019)
 
 HORA_FEED, HORA_FEED_DOM, HORA_REEL = "20:00", "10:30", "13:00"
-HORAS_STORY = ["08:30", "15:00", "20:45"]
+HORA_FEED2, HORA_FEED2_DOM = "12:00", "18:00"        # 2o feed do dia (peca de outra categoria)
+HORAS_STORY = ["08:30", "11:00", "13:30", "16:00", "18:30", "20:45"]   # 6 stories/dia
+# Ciclo de categorias dos stories (6 por dia, 6 posicoes seguidas do ciclo): blusas/vestidos mais vezes (sao mais pecas),
+# saias e tricos pelo menos a cada 2 dias. Nunca repete a mesma peca no dia.
+CICLO_STORY = ["Blusas", "Vestidos", "Calças", "Blusas", "Vestidos", "Conjuntos & Coletes",
+               "Blusas", "Vestidos", "Saias", "Calças", "Tricôs", "Conjuntos & Coletes"]
 DIAS_REEL = {3, 4, 5}  # quinta, sexta, sabado (maior alcance nos Insights)
 ROTACAO_CARROSSEL = ["Vestidos", "Blusas", "Calças", "Conjuntos & Coletes", "Saias", "Tricôs"]
 DATAS_ESPECIAIS = {
@@ -168,12 +173,13 @@ def gerar(inicio, dias):
 
     cat_idx = Counter()
     bf_skus = {r["sku"] for r in promos_boas[:5]}
-    sabados = sorted([r for r in rows if r["em_promocao"] and (r["margem_estimada_pct"] or 0) >= 15 and r["sku"] not in bf_skus],
+    sabados = sorted([r for r in rows if r["em_promocao"] and not r["margem_critica"] and (r["margem_estimada_pct"] or 0) >= 15 and r["sku"] not in bf_skus],
                      key=lambda r: -r["margem_estimada_pct"])
     carr_n = 0
     reel_n = 0
     inst_n = 0
     single_n = 0
+    extra_n = 0
     story_pool = sorted(rows, key=lambda r: (uso_story[r["sku"]], -lucro_unit(r)))
     pendente_stories = []
     for d in range(dias):
@@ -221,6 +227,17 @@ def gerar(inicio, dias):
             item(data, HORA_FEED, "feed", [r["sku"]], [str(midia.arte_feed(r).relative_to(ROOT)).replace("\\", "/")],
                  legenda_single(r, single_n), titulo=f"Destaque: {r['nome']}")
             single_n += 1; feed_skus = [r["sku"]]
+        # ---------- FEED 2 (peca avulsa de categoria diferente do feed principal) ----------
+        cats_hoje = {por_sku[s]["categoria"] for s in feed_skus}
+        for _ in range(len(ROTACAO_CARROSSEL)):
+            cat2 = ROTACAO_CARROSSEL[(extra_n + 2) % len(ROTACAO_CARROSSEL)]
+            extra_n += 1
+            if cat2 not in cats_hoje:
+                break
+        r2 = pegar_feed(lambda x: x["categoria"] == cat2, 1, relax=True, pad=True)[0]
+        item(data, HORA_FEED2_DOM if wd == 6 else HORA_FEED2, "feed", [r2["sku"]],
+             [str(midia.arte_feed(r2).relative_to(ROOT)).replace("\\", "/")], legenda_single(r2, single_n), titulo=f"Peça: {r2['nome']}")
+        single_n += 1; feed_skus = feed_skus + [r2["sku"]]
         # ---------- REELS (producao manual) ----------
         if wd in DIAS_REEL:
             com_video = [r for r in rows if r["sku"] in videos and uso_feed[r["sku"] + "_reel"] == 0]
@@ -240,32 +257,23 @@ def gerar(inicio, dias):
                  legenda_reel(r, reel_n), status=status, obs=obs, titulo=f"Reel: {r['nome']}")
             reel_n += 1
         pendente_stories.append((data, wd, feed_skus))
-    # ---------- STORIES (segunda passada: prioriza o que ainda nao apareceu) ----------
-    for data, wd, feed_skus in pendente_stories:
+    # ---------- STORIES (segunda passada: 6/dia, uma categoria por posicao do ciclo, prioriza o que ainda nao apareceu) ----------
+    cand = [r for r in rows if r["preco_por"]]
+    for k, (data, wd, feed_skus) in enumerate(pendente_stories):
         usados_hoje = set(feed_skus)
-        stories_hoje = []
-        story_pool.sort(key=lambda r: (uso_story[r["sku"]] + (1 if uso_feed[r["sku"]] else 0), -lucro_unit(r)))
-        for r in story_pool:
-            if len(stories_hoje) == 2:
-                break
-            if r["sku"] in usados_hoje or not r["preco_por"]:
-                continue
-            stories_hoje.append(r)
+        dia_n = (data - inicio).days
+        metade = [CICLO_STORY[(6 * dia_n + j) % len(CICLO_STORY)] for j in range(6)]
+        giro = (dia_n // 2) % 6            # gira a ordem a cada 2 dias: a mesma categoria nao cai sempre no mesmo horario
+        cats = [metade[(j + giro) % 6] for j in range(len(HORAS_STORY))]
+        for hora, cat in zip(HORAS_STORY, cats):
+            livres = [r for r in cand if r["categoria"] == cat and r["sku"] not in usados_hoje]
+            if not livres:   # categoria esgotada no dia: completa com qualquer outra ainda nao usada hoje
+                livres = [r for r in cand if r["sku"] not in usados_hoje]
+            r = min(livres, key=lambda x: (uso_story[x["sku"]] + (1 if uso_feed[x["sku"]] else 0), -lucro_unit(x)))
             uso_story[r["sku"]] += 1
             usados_hoje.add(r["sku"])
-        story_pool.sort(key=lambda r: (uso_story[r["sku"]] + (1 if uso_feed[r["sku"]] else 0), -lucro_unit(r)))
-        for hora, r in zip(HORAS_STORY[:2], stories_hoje):
             item(data, hora, "story", [r["sku"]], [str(midia.arte_story(r).relative_to(ROOT)).replace("\\", "/")], "",
                  titulo=f"Story: {r['nome']}")
-        if not feed_skus:
-            r = next((x for x in story_pool if x["sku"] not in usados_hoje and x["preco_por"]), story_pool[0])
-            uso_story[r["sku"]] += 1
-            item(data, HORAS_STORY[2], "story", [r["sku"]], [str(midia.arte_story(r).relative_to(ROOT)).replace("\\", "/")], "",
-                 titulo=f"Story: {r['nome']}")
-        else:
-            r = por_sku[feed_skus[0]]
-            item(data, HORAS_STORY[2], "story", [r["sku"]], [str(midia.arte_story(r).relative_to(ROOT)).replace("\\", "/")], "",
-                 titulo=f"Story (chamada para o feed): {r['nome']}", obs="Antes de publicar manualmente: adicionar figurinha de link/enquete (a API nao cria figurinhas).")
     fila = sorted(mantidos + novos, key=lambda it: (it["data"], it["hora_local"], it["tipo"]))
     # a fila publica (vai ao GitHub) nao leva observacoes internas; elas ficam so nas planilhas
     publica = [{k: v for k, v in it.items() if k != "observacao"} for it in fila]
@@ -287,7 +295,7 @@ def exportar(fila, por_sku):
         for it in fila:
             dia = NOMES_DIA[dt.date.fromisoformat(it["data"]).weekday()]
             w.writerow([it["data"], dia, it["hora_local"], it["tipo"], it["titulo"], ",".join(it["skus"]),
-                        " | ".join(it["arquivos"]), it["legenda"], it["status"], it["observacao"]])
+                        " | ".join(it["arquivos"]), it["legenda"], it["status"], it.get("observacao", "")])
     wb = Workbook()
     ws = wb.active
     ws.title = "Calendario"
@@ -296,7 +304,7 @@ def exportar(fila, por_sku):
     for it in fila:
         dia = NOMES_DIA[dt.date.fromisoformat(it["data"]).weekday()]
         ws.append([dt.date.fromisoformat(it["data"]), dia, it["hora_local"], it["tipo"].capitalize(), it["titulo"],
-                   ", ".join(it["skus"]), "\n".join(it["arquivos"]), it["legenda"], it["status"], it["observacao"]])
+                   ", ".join(it["skus"]), "\n".join(it["arquivos"]), it["legenda"], it["status"], it.get("observacao", "")])
         for c in ws[ws.max_row]:
             c.fill = PatternFill("solid", fgColor=cor.get(it["tipo"], "FFFFFF"))
             c.alignment = Alignment(wrap_text=True, vertical="top")
@@ -325,9 +333,8 @@ def exportar(fila, por_sku):
         ["Feed (seg-sab)", HORA_FEED, "Insights (mid. recentes): 20h teve o melhor engajamento da noite; cliente em casa apos a rotina."],
         ["Feed (domingo)", HORA_FEED_DOM, "Domingo de manha: consumo mais calmo; peca em destaque (cartoes institucionais suspensos)."],
         ["Reels (qui/sex/sab)", HORA_REEL, "Insights: 13h foi a melhor faixa de engajamento; qui/sex/sab tem alcance 2-3x maior (media 150-270 vs ~80 contas/dia)."],
-        ["Story 1", HORAS_STORY[0], "Primeira olhada do dia."],
-        ["Story 2", HORAS_STORY[1], "Tarde (15h): segunda melhor faixa de engajamento; nao colide com o Reel das 13h."],
-        ["Story 3", HORAS_STORY[2], "Chamada para o feed do dia + WhatsApp no horario de maior conversa."],
+        ["Stories (6/dia)", ", ".join(HORAS_STORY), "Cobrem o dia todo, uma categoria por story; 13h30 e 20h45 perto dos picos de engajamento; nao colidem com feed/reel."],
+        ["Feed 2 (12:00; dom 18:00)", HORA_FEED2, "Segunda peca avulsa do dia, de categoria diferente do feed principal."],
         ["Como calibrar", "", "Depois de 14 dias, abrir Insights > Audiencia > Horarios mais ativos e mover os posts para os picos reais dos seus 1.754 seguidores."],
     ]:
         hip.append(linha)
