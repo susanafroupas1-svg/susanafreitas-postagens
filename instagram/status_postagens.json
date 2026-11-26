@@ -113,10 +113,19 @@
   "publicado_em": "2026-11-26T15:00:58Z",
   "status": "publicado"
  },
+ "2026-11-26_1300_reel_004": {
+  "status": "perdido"
+ },
  "2026-11-26_1330_story_081": {
   "creation_id": "18651885409045604",
   "ig_media_id": "17999429184105861",
   "publicado_em": "2026-11-26T16:30:39Z",
+  "status": "publicado"
+ },
+ "2026-11-26_1600_story_082": {
+  "creation_id": "18651919141045604",
+  "ig_media_id": "17956582917311404",
+  "publicado_em": "2026-11-26T19:00:33Z",
   "status": "publicado"
  }
 }
