@@ -132,8 +132,18 @@ def utc_str(data, hora):
     return (local + dt.timedelta(hours=UTC_OFFSET_H)).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
-def gerar(inicio, dias):
+def carregar_ativos():
+    """Pecas da planilha mestre, sem as que sairam do site (veja sincronizar_catalogo.py / catalogo_visto.json)."""
     rows = base.carregar()
+    visto = IG / "catalogo_visto.json"
+    if not visto.exists():
+        return rows
+    fora = {v["sku"] for v in json.loads(visto.read_text(encoding="utf-8"))["pecas"].values() if v.get("situacao") == "removida"}
+    return [r for r in rows if r["sku"] not in fora]
+
+
+def gerar(inicio, dias):
+    rows = carregar_ativos()
     por_sku = {r["sku"]: r for r in rows}
     fila_antiga = carregar_fila()
     fim = inicio + dt.timedelta(days=dias)

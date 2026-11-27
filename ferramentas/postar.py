@@ -106,7 +106,7 @@ def main():
 
     vencidos = []
     for it in fila:
-        if it["status"] in ("publicado", "perdido"):
+        if it["status"] in ("publicado", "perdido", "cancelado"):   # cancelado = peca saiu do catalogo (sincronizar_catalogo.py)
             continue
         quando = dt.datetime.strptime(it["publicar_em_utc"], "%Y-%m-%dT%H:%M:%SZ")
         if quando > agora:

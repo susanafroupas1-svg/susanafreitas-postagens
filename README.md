@@ -45,3 +45,14 @@ Limites conhecidos: a API não publica **figurinhas** (enquete, link, caixinha),
 ## Calendário em uma linha
 
 Feed todo dia às 19:30 (domingo 10:30), Reels ter/qui/sáb às 12:00, Stories às 08:30, 13:00 e 20:45. Terça/quinta carrossel por categoria, sábado oportunidade, domingo institucional, Black Friday em 27/11. As 95 peças aparecem pelo menos uma vez. Os horários são hipóteses: ajuste depois de 14 dias olhando *Insights > Audiência*.
+
+## Sincronização automática com o catálogo do site
+
+Antes de cada publicação, `ferramentas/sincronizar_catalogo.py` (chamado pelo `ciclo.sh`) compara o site (tabela `produtos` do Supabase, leitura pública) com `instagram/catalogo_visto.json`:
+
+- **Peça removida do site** → itens ainda não publicados dela na fila viram `cancelado` (o que já foi postado fica). Se a peça voltar (mesmo id), os itens são liberados.
+- **Peça nova** → baixa a foto, gera story (e feed, se a foto servir e a margem permitir) e enfileira nos próximos horários livres (HH:40/HH:10, fora da grade fixa). Depois, localmente, rode `python -I -X utf8 ferramentas/sincronizar_catalogo.py --atualizar-mestre` para trazê-la à planilha mestre e preencher tamanhos/estoque/custo.
+- **Travas:** se o site falhar, vier vazio/com menos da metade das peças, ou houver mais de 10 remoções numa rodada, nada é alterado.
+- `calendario.py` ignora peças removidas ao gerar novos dias.
+- Teste sem alterar nada: `python -I -X utf8 ferramentas/sincronizar_catalogo.py` (precisa de `SUPABASE_URL` e `SUPABASE_ANON_KEY` no ambiente).
+- No GitHub: criar os secrets `SUPABASE_URL` e `SUPABASE_ANON_KEY` (os mesmos valores públicos que o site usa).

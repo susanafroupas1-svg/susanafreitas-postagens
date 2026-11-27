@@ -14,12 +14,23 @@ PEARL, ESPRESSO, MOCHA, FENDI, BORDO = (251, 248, 244), (47, 38, 34), (122, 96, 
 FONTS = Path("C:/Windows/Fonts")
 
 
+# Alternativas livres para Linux (GitHub Actions: apt install fonts-liberation fonts-crosextra-carlito)
+_LINUX = Path("/usr/share/fonts/truetype")
+_ALTERNATIVAS = {
+    "georgia.ttf": _LINUX / "liberation/LiberationSerif-Regular.ttf", "georgiab.ttf": _LINUX / "liberation/LiberationSerif-Bold.ttf",
+    "georgiai.ttf": _LINUX / "liberation/LiberationSerif-Italic.ttf", "calibri.ttf": _LINUX / "crosextra/Carlito-Regular.ttf",
+    "calibrib.ttf": _LINUX / "crosextra/Carlito-Bold.ttf", "arial.ttf": _LINUX / "liberation/LiberationSans-Regular.ttf",
+}
+
+
 def fonte(nome, tam):
     for f in (nome, "georgia.ttf", "arial.ttf"):
-        try:
-            return ImageFont.truetype(str(FONTS / f), tam)
-        except OSError:
-            continue
+        for caminho in (FONTS / f, _ALTERNATIVAS.get(f)):
+            try:
+                if caminho:
+                    return ImageFont.truetype(str(caminho), tam)
+            except OSError:
+                continue
     return ImageFont.load_default()
 
 
