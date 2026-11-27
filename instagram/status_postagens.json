@@ -162,10 +162,19 @@
   "erro": "catalogo: peca removida do site (SF-SAI-003)",
   "status": "cancelado"
  },
+ "2026-11-27_1300_reel_007": {
+  "status": "perdido"
+ },
  "2026-11-27_1330_story_087": {
   "creation_id": "18652159522045604",
   "ig_media_id": "18135190795838623",
   "publicado_em": "2026-11-27T16:30:16Z",
+  "status": "publicado"
+ },
+ "2026-11-27_1600_story_088": {
+  "creation_id": "18652189771045604",
+  "ig_media_id": "18016120697972994",
+  "publicado_em": "2026-11-27T19:00:23Z",
   "status": "publicado"
  },
  "2026-11-27_2045_story_090": {
