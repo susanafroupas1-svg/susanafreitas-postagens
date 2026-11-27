@@ -1,11 +1,11 @@
 {
- "atualizado_em": "2026-11-27T00:17:30Z",
+ "atualizado_em": "2026-11-27T00:55:22Z",
  "pecas": {
   "site-7": {
    "sku": "SF-BLU-001",
    "nome": "Vestido Estampado Marrom",
    "categoria": "Vestidos",
-   "image_url": "https://susanafreitasstore.com.br/images/catalog/7.png",
+   "image_url": "/images/catalog/7.png",
    "preco_por": 209.9,
    "preco_de": 339.9,
    "selo": true,
@@ -32,7 +32,8 @@
    "preco_de": 309.9,
    "selo": true,
    "cadastro": "2026-04-21",
-   "situacao": "ativa"
+   "situacao": "removida",
+   "removida_em": "2026-11-27"
   },
   "1776732446209-7oc0k6xzb": {
    "sku": "SF-BLU-004",
@@ -76,7 +77,8 @@
    "preco_de": null,
    "selo": false,
    "cadastro": "2026-05-17",
-   "situacao": "ativa"
+   "situacao": "removida",
+   "removida_em": "2026-11-27"
   },
   "1779052408159-kp6jfmz7a": {
    "sku": "SF-BLU-008",
@@ -87,7 +89,8 @@
    "preco_de": null,
    "selo": false,
    "cadastro": "2026-05-17",
-   "situacao": "ativa"
+   "situacao": "removida",
+   "removida_em": "2026-11-27"
   },
   "1781368252668-kkw2folcm": {
    "sku": "SF-BLU-009",
@@ -175,7 +178,8 @@
    "preco_de": null,
    "selo": false,
    "cadastro": "2026-08-21",
-   "situacao": "ativa"
+   "situacao": "removida",
+   "removida_em": "2026-11-27"
   },
   "1787349852491-rd7wt2p3j": {
    "sku": "SF-BLU-017",
@@ -516,7 +520,8 @@
    "preco_de": null,
    "selo": false,
    "cadastro": "2026-10-31",
-   "situacao": "ativa"
+   "situacao": "removida",
+   "removida_em": "2026-11-27"
   },
   "1793449146086-0svb5azi9": {
    "sku": "SF-CAL-011",
@@ -593,7 +598,8 @@
    "preco_de": null,
    "selo": false,
    "cadastro": "2026-09-02",
-   "situacao": "ativa"
+   "situacao": "removida",
+   "removida_em": "2026-11-27"
   },
   "1789231119862-fqn232rjk": {
    "sku": "SF-CJT-006",
@@ -681,7 +687,8 @@
    "preco_de": null,
    "selo": false,
    "cadastro": "2026-10-31",
-   "situacao": "ativa"
+   "situacao": "removida",
+   "removida_em": "2026-11-27"
   },
   "1793919334962-fnvefgs48": {
    "sku": "SF-SAI-004",
@@ -709,7 +716,7 @@
    "sku": "SF-TRI-001",
    "nome": "Tricô Keyla Chumbo",
    "categoria": "Tricôs",
-   "image_url": "https://susanafreitasstore.com.br/images/catalog/14.png",
+   "image_url": "/images/catalog/14.png",
    "preco_por": 389.9,
    "preco_de": 548.0,
    "selo": true,
@@ -720,7 +727,7 @@
    "sku": "SF-TRI-002",
    "nome": "Chemise Tricoline Olivia",
    "categoria": "Vestidos",
-   "image_url": "https://susanafreitasstore.com.br/images/catalog/30.png",
+   "image_url": "/images/catalog/30.png",
    "preco_por": 299.9,
    "preco_de": 498.9,
    "selo": true,
@@ -747,7 +754,8 @@
    "preco_de": null,
    "selo": false,
    "cadastro": "2026-06-13",
-   "situacao": "ativa"
+   "situacao": "removida",
+   "removida_em": "2026-11-27"
   },
   "1782310725283-p4x60y2a1": {
    "sku": "SF-TRI-005",
@@ -764,7 +772,7 @@
    "sku": "SF-VES-001",
    "nome": "Vestido Anya",
    "categoria": "Vestidos",
-   "image_url": "https://susanafreitasstore.com.br/images/catalog/25.png",
+   "image_url": "/images/catalog/25.png",
    "preco_por": 189.9,
    "preco_de": null,
    "selo": false,
@@ -775,7 +783,7 @@
    "sku": "SF-VES-002",
    "nome": "Vestido Power Francine",
    "categoria": "Vestidos",
-   "image_url": "https://susanafreitasstore.com.br/images/catalog/29.png",
+   "image_url": "/images/catalog/29.png",
    "preco_por": 579.9,
    "preco_de": null,
    "selo": false,
@@ -868,7 +876,8 @@
    "preco_de": null,
    "selo": false,
    "cadastro": "2026-06-13",
-   "situacao": "ativa"
+   "situacao": "removida",
+   "removida_em": "2026-11-27"
   },
   "1783471321181-edfj694yy": {
    "sku": "SF-VES-011",

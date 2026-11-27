@@ -145,5 +145,129 @@
   "ig_media_id": "18004253849810241",
   "publicado_em": "2026-11-26T23:45:47Z",
   "status": "publicado"
+ },
+ "2026-11-27_1200_feed_006": {
+  "erro": "catalogo: peca removida do site (SF-SAI-003)",
+  "status": "cancelado"
+ },
+ "2026-11-27_2045_story_090": {
+  "erro": "catalogo: peca removida do site (SF-BLU-003)",
+  "status": "cancelado"
+ },
+ "2026-11-28_1100_story_092": {
+  "erro": "catalogo: peca removida do site (SF-SAI-003)",
+  "status": "cancelado"
+ },
+ "2026-11-28_1200_feed_009": {
+  "erro": "catalogo: peca removida do site (SF-TRI-004)",
+  "status": "cancelado"
+ },
+ "2026-11-29_1100_story_098": {
+  "erro": "catalogo: peca removida do site (SF-BLU-016)",
+  "status": "cancelado"
+ },
+ "2026-11-30_2000_feed_013": {
+  "erro": "catalogo: peca removida do site (SF-BLU-016)",
+  "status": "cancelado"
+ },
+ "2026-12-01_1600_story_112": {
+  "erro": "catalogo: peca removida do site (SF-BLU-008)",
+  "status": "cancelado"
+ },
+ "2026-12-02_2000_feed_017": {
+  "erro": "catalogo: peca removida do site (SF-BLU-008)",
+  "status": "cancelado"
+ },
+ "2026-12-04_0830_story_127": {
+  "erro": "catalogo: peca removida do site (SF-TRI-004)",
+  "status": "cancelado"
+ },
+ "2026-12-04_1100_story_128": {
+  "erro": "catalogo: peca removida do site (SF-CJT-005)",
+  "status": "cancelado"
+ },
+ "2026-12-07_1600_story_148": {
+  "erro": "catalogo: peca removida do site (SF-BLU-007)",
+  "status": "cancelado"
+ },
+ "2026-12-08_1330_story_153": {
+  "erro": "catalogo: peca removida do site (SF-SAI-003)",
+  "status": "cancelado"
+ },
+ "2026-12-08_1600_story_154": {
+  "erro": "catalogo: peca removida do site (SF-CAL-010)",
+  "status": "cancelado"
+ },
+ "2026-12-08_2000_carrossel_032": {
+  "erro": "catalogo: peca removida do site (SF-CJT-005)",
+  "status": "cancelado"
+ },
+ "2026-12-10_2000_carrossel_036": {
+  "erro": "catalogo: peca removida do site (SF-BLU-007)",
+  "status": "cancelado"
+ },
+ "2026-12-11_1300_reel_041": {
+  "erro": "catalogo: peca removida do site (SF-VES-010)",
+  "status": "cancelado"
+ },
+ "2026-12-12_1330_story_177": {
+  "erro": "catalogo: peca removida do site (SF-TRI-004)",
+  "status": "cancelado"
+ },
+ "2026-12-14_1330_story_189": {
+  "erro": "catalogo: peca removida do site (SF-CJT-005)",
+  "status": "cancelado"
+ },
+ "2026-12-17_2000_carrossel_053": {
+  "erro": "catalogo: peca removida do site (SF-VES-010)",
+  "status": "cancelado"
+ },
+ "2026-12-18_1200_feed_057": {
+  "erro": "catalogo: peca removida do site (SF-CAL-010)",
+  "status": "cancelado"
+ },
+ "2026-12-18_1300_reel_058": {
+  "erro": "catalogo: peca removida do site (SF-SAI-003)",
+  "status": "cancelado"
+ },
+ "2026-12-18_1600_story_214": {
+  "erro": "catalogo: peca removida do site (SF-SAI-003)",
+  "status": "cancelado"
+ },
+ "2026-12-19_1100_story_218": {
+  "erro": "catalogo: peca removida do site (SF-VES-010)",
+  "status": "cancelado"
+ },
+ "2026-12-19_1200_feed_060": {
+  "erro": "catalogo: peca removida do site (SF-SAI-003)",
+  "status": "cancelado"
+ },
+ "2026-12-19_1300_reel_061": {
+  "erro": "catalogo: peca removida do site (SF-CAL-010)",
+  "status": "cancelado"
+ },
+ "2026-12-20_1600_story_226": {
+  "erro": "catalogo: peca removida do site (SF-CAL-010)",
+  "status": "cancelado"
+ },
+ "2026-12-20_1830_story_227": {
+  "erro": "catalogo: peca removida do site (SF-TRI-004)",
+  "status": "cancelado"
+ },
+ "2026-12-21_2045_story_234": {
+  "erro": "catalogo: peca removida do site (SF-BLU-003)",
+  "status": "cancelado"
+ },
+ "2026-12-22_2000_carrossel_066": {
+  "erro": "catalogo: peca removida do site (SF-BLU-016)",
+  "status": "cancelado"
+ },
+ "2026-12-23_1830_story_245": {
+  "erro": "catalogo: peca removida do site (SF-BLU-016)",
+  "status": "cancelado"
+ },
+ "2026-12-24_1600_story_250": {
+  "erro": "catalogo: peca removida do site (SF-CJT-005)",
+  "status": "cancelado"
  }
 }
